@@ -1,13 +1,13 @@
 ﻿using System.Buffers.Binary;
 using System.Linq.Expressions;
-using Everywhere.Chat;
-using Everywhere.Database;
+using AlfredGPT.Chat;
+using AlfredGPT.Database;
 using MessagePack;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using ZLinq;
 
-namespace Everywhere.Storage;
+namespace AlfredGPT.Storage;
 
 /// <summary>
 /// EF Core implementation of IChatContextStorage using explicit "snapshot diff" saves.

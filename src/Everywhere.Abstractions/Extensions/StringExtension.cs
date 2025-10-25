@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class StringExtension
 {

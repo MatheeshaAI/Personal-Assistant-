@@ -4,7 +4,7 @@
 using Windows.Win32;
 using Windows.Win32.UI.WindowsAndMessaging;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 internal sealed class ClipboardListener
 {

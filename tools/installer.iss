@@ -1,6 +1,6 @@
-﻿#define AppName "Everywhere"
+﻿#define AppName "AlfredGPT"
 #define AppPublisher "Sylinko"
-#define AppExeName "Everywhere.Windows.exe"
+#define AppExeName "AlfredGPT.Windows.exe"
 #define AppVersion GetEnv("VERSION")
 
 [Setup]
@@ -13,13 +13,13 @@ AppPublisher={#AppPublisher}
 DefaultDirName={localappdata}\{#AppName}
 DefaultGroupName={#AppName}
 OutputDir=..
-OutputBaseFilename=Everywhere-Windows-x64-Setup-v{#AppVersion}
+OutputBaseFilename=AlfredGPT-Windows-x64-Setup-v{#AppVersion}
 PrivilegesRequired=lowest
 Compression=lzma2
 
 ; --- UI and Icons ---
 WizardStyle=modern
-SetupIconFile=..\img\Everywhere.ico
+SetupIconFile=..\img\AlfredGPT.ico
 UninstallDisplayIcon={app}\{#AppExeName}
 
 ; --- Registry ---
@@ -50,9 +50,9 @@ procedure AfterMyProgInstall();
 var
   Identifier: String;
 begin
-  if RegQueryStringValue(HKEY_CURRENT_USER, 'Software\Microsoft\Windows\CurrentVersion\Uninstall\Everywhere', 'Identifier', Identifier) and (Identifier = 'D66EA41B-8DEB-4E5A-9D32-AB4F8305F664') then
+  if RegQueryStringValue(HKEY_CURRENT_USER, 'Software\Microsoft\Windows\CurrentVersion\Uninstall\AlfredGPT', 'Identifier', Identifier) and (Identifier = 'D66EA41B-8DEB-4E5A-9D32-AB4F8305F664') then
   begin
-    RegDeleteKeyIncludingSubkeys(HKEY_CURRENT_USER, 'Software\Microsoft\Windows\CurrentVersion\Uninstall\Everywhere');
+    RegDeleteKeyIncludingSubkeys(HKEY_CURRENT_USER, 'Software\Microsoft\Windows\CurrentVersion\Uninstall\AlfredGPT');
   end;
 end;
 

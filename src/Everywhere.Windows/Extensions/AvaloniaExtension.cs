@@ -1,7 +1,7 @@
 ﻿using Windows.Win32.UI.Input.KeyboardAndMouse;
 using Avalonia.Input;
 
-namespace Everywhere.Windows.Extensions;
+namespace AlfredGPT.Windows.Extensions;
 
 internal static class AvaloniaExtension
 {

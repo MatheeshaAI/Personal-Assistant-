@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel;
 using ZLinq;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 public class FileSystemPlugin : BuiltInChatPlugin
 {

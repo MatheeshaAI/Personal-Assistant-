@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 [JsonPolymorphic]
 [JsonDerivedType(typeof(StdioMcpTransportConfiguration), "stdio")]

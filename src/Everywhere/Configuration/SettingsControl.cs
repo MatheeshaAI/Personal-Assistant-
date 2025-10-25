@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using Avalonia.Controls;
-using Everywhere.Common;
+using AlfredGPT.Common;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 public interface ISettingsControl
 {

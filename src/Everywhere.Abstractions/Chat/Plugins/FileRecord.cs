@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Chat.Plugins;
+﻿namespace AlfredGPT.Chat.Plugins;
 
 /// <summary>
 /// Represents a file or directory record with metadata.

@@ -64,12 +64,12 @@ jobs:
     - name: Restore
       shell: pwsh
       run: |
-        dotnet restore Everywhere.sln -r win-x64
+        dotnet restore AlfredGPT.sln -r win-x64
 
-    - name: Publish Everywhere.Windows
+    - name: Publish AlfredGPT.Windows
       shell: pwsh
       run: |
-        dotnet publish src/Everywhere.Windows/Everywhere.Windows.csproj -c Release --self-contained true -p:AssemblyVersion=$env:VERSION -p:FileVersion=$env:VERSION -o ./publish --no-restore
+        dotnet publish src/AlfredGPT.Windows/AlfredGPT.Windows.csproj -c Release --self-contained true -p:AssemblyVersion=$env:VERSION -p:FileVersion=$env:VERSION -o ./publish --no-restore
 
     - name: Install Inno Setup
       shell: pwsh
@@ -88,16 +88,16 @@ jobs:
     - name: Create release zip
       shell: pwsh
       run: |
-        Compress-Archive -Path ./publish/* -DestinationPath ./Everywhere-Windows-x64-v$env:VERSION.zip
+        Compress-Archive -Path ./publish/* -DestinationPath ./AlfredGPT-Windows-x64-v$env:VERSION.zip
 
     - name: Create GitHub Release
       id: create_release
       uses: softprops/action-gh-release@v2
       with:
-        name: Everywhere v${{env.VERSION}}
+        name: AlfredGPT v${{env.VERSION}}
         body: ${{ steps.get_release_notes.outputs.body }}
         draft: false
         prerelease: false
         files: |
-          ./Everywhere-Windows-x64-v${{env.VERSION}}.zip
-          ./Everywhere-Windows-x64-Setup-v${{env.VERSION}}.exe
+          ./AlfredGPT-Windows-x64-v${{env.VERSION}}.zip
+          ./AlfredGPT-Windows-x64-Setup-v${{env.VERSION}}.exe

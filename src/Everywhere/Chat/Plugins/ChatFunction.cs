@@ -1,9 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Configuration;
+using AlfredGPT.Configuration;
 using Lucide.Avalonia;
 using Microsoft.SemanticKernel;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 public abstract partial class ChatFunction : ObservableObject
 {

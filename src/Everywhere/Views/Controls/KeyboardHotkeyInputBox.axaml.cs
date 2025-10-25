@@ -2,11 +2,11 @@
 using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Threading;
-using Everywhere.Common;
-using Everywhere.Interop;
-using Everywhere.Utilities;
+using AlfredGPT.Common;
+using AlfredGPT.Interop;
+using AlfredGPT.Utilities;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public partial class KeyboardHotkeyInputBox : UserControl
 {

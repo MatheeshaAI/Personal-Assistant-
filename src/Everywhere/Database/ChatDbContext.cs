@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Everywhere.Common;
+using AlfredGPT.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Everywhere.Database;
+namespace AlfredGPT.Database;
 
 /// <summary>
 /// EF Core DbContext for local chat storage.

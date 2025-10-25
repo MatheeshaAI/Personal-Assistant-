@@ -25,7 +25,7 @@ using ComObject = SharpGen.Runtime.ComObject;
 using Vector = Avalonia.Vector;
 using Visual = Windows.UI.Composition.Visual;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 public sealed partial class Direct3D11ScreenCapture : IAsyncDisposable
 {

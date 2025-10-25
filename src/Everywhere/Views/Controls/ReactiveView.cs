@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
-using Everywhere.Common;
+using AlfredGPT.Common;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public abstract class ReactiveUserControl<TViewModel> : UserControl where TViewModel : ReactiveViewModelBase
 {

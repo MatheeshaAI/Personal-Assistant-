@@ -6,7 +6,7 @@ using Microsoft.SemanticKernel.Connectors.Ollama;
 using OllamaSharp;
 using TextContent = Microsoft.Extensions.AI.TextContent;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// An implementation of <see cref="IKernelMixin"/> for Ollama models.

@@ -2,7 +2,7 @@
 using Avalonia.Data.Converters;
 using ZLinq;
 
-namespace Everywhere.ValueConverters;
+namespace AlfredGPT.ValueConverters;
 
 public class NumberConverters<T> where T : struct, INumber<T>
 {

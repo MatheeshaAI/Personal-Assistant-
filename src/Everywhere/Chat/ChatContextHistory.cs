@@ -1,6 +1,6 @@
-﻿using Everywhere.Common;
+﻿using AlfredGPT.Common;
 
-namespace Everywhere.Chat;
+namespace AlfredGPT.Chat;
 
 public record ChatContextHistory(
     HumanizedDate Date,

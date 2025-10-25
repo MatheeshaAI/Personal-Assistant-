@@ -1,14 +1,14 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.AI;
-using Everywhere.Configuration;
+using AlfredGPT.AI;
+using AlfredGPT.Configuration;
 using Lucide.Avalonia;
 using Microsoft.SemanticKernel;
 using ObservableCollections;
 using ZLinq;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 [JsonPolymorphic]
 [JsonDerivedType(typeof(BuiltInChatPlugin), "native")]
@@ -74,7 +74,7 @@ public abstract partial class ChatPlugin(string name) : KernelPlugin(name)
 }
 
 /// <summary>
-/// Chat kernel plugin implemented natively in Everywhere.
+/// Chat kernel plugin implemented natively in AlfredGPT.
 /// </summary>
 /// <param name="name"></param>
 public abstract class BuiltInChatPlugin(string name) : ChatPlugin(name);

@@ -2,7 +2,7 @@
 using System.Text.Json.Serialization;
 using Avalonia.Input;
 
-namespace Everywhere.Interop;
+namespace AlfredGPT.Interop;
 
 public readonly record struct KeyboardHotkey(Key Key, KeyModifiers Modifiers)
 {

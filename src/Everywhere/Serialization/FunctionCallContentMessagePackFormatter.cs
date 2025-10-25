@@ -2,7 +2,7 @@
 using MessagePack.Formatters;
 using Microsoft.SemanticKernel;
 
-namespace Everywhere.Serialization;
+namespace AlfredGPT.Serialization;
 
 public class FunctionCallContentMessagePackFormatter : IMessagePackFormatter<FunctionCallContent?>
 {

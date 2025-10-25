@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Chat;
+﻿namespace AlfredGPT.Chat;
 
 public enum ChatWindowPinMode
 {

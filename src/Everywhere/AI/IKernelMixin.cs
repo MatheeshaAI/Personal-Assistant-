@@ -1,7 +1,7 @@
 ﻿using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// Interface for mixing Semantic Kernel and Kernel Memory services.

@@ -8,21 +8,21 @@ using Avalonia.Platform.Storage;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.Chat;
-using Everywhere.Chat.Plugins;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Interop;
-using Everywhere.Storage;
-using Everywhere.Utilities;
-using Everywhere.Views;
+using AlfredGPT.Chat;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Interop;
+using AlfredGPT.Storage;
+using AlfredGPT.Utilities;
+using AlfredGPT.Views;
 using Lucide.Avalonia;
 using Microsoft.Extensions.Logging;
 using ObservableCollections;
 using ShadUI;
 using ZLinq;
 
-namespace Everywhere.ViewModels;
+namespace AlfredGPT.ViewModels;
 
 public partial class ChatWindowViewModel : BusyViewModelBase, IEventSubscriber<ChatPluginConsentRequest>
 {

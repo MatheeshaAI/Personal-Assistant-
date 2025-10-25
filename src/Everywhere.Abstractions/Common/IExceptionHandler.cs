@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Common;
+﻿namespace AlfredGPT.Common;
 
 public interface IExceptionHandler
 {

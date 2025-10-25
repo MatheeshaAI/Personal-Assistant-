@@ -1,9 +1,9 @@
 ﻿using System.Globalization;
 using Avalonia.Data.Converters;
 using Avalonia.Media;
-using Everywhere.Chat.Plugins;
+using AlfredGPT.Chat.Plugins;
 
-namespace Everywhere.ValueConverters;
+namespace AlfredGPT.ValueConverters;
 
 public static class ChatFunctionPermissionsConverters
 {

@@ -6,7 +6,7 @@ using Avalonia.Data.Converters;
 using Avalonia.Media;
 using ZLinq;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 /// <summary>
 /// Factory class for creating settings items based on the properties of a target object.

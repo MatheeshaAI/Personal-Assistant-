@@ -8,14 +8,14 @@ using Avalonia.Markup.Xaml.MarkupExtensions;
 using Avalonia.Media;
 using Avalonia.Platform.Storage;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.ValueConverters;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.ValueConverters;
 using Lucide.Avalonia;
 using Microsoft.Extensions.Logging;
 using ShadUI;
 
-namespace Everywhere.Views.Configuration;
+namespace AlfredGPT.Views.Configuration;
 
 /// <summary>
 /// A control that provides software update functionality used in Common settings.
@@ -88,7 +88,7 @@ public class SoftwareUpdateControl : StackPanel
                             ServiceLocator.Resolve<ILauncher>()
                                 .LaunchUriAsync(
                                     new Uri(
-                                        "https://github.com/DearVa/Everywhere/releases",
+                                        "https://github.com/DearVa/AlfredGPT/releases",
                                         UriKind.Absolute))
                         ),
                         CornerRadius = new CornerRadius(1),

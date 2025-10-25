@@ -7,9 +7,9 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Web;
-using Everywhere.Configuration;
-using Everywhere.Interop;
-using Everywhere.Utilities;
+using AlfredGPT.Configuration;
+using AlfredGPT.Interop;
+using AlfredGPT.Utilities;
 using Google.Apis.Services;
 using Lucide.Avalonia;
 using Microsoft.Extensions.Logging;
@@ -22,7 +22,7 @@ using PuppeteerSharp;
 using Tavily;
 using ZLinq;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 public partial class WebBrowserPlugin : BuiltInChatPlugin
 {

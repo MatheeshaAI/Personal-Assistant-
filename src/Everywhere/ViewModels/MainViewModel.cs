@@ -2,16 +2,16 @@
 using System.Reflection;
 using Avalonia.Controls;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Interop;
-using Everywhere.Views;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Interop;
+using AlfredGPT.Views;
 using Lucide.Avalonia;
 using Microsoft.Extensions.DependencyInjection;
 using ObservableCollections;
 using ShadUI;
 
-namespace Everywhere.ViewModels;
+namespace AlfredGPT.ViewModels;
 
 public partial class MainViewModel(IServiceProvider serviceProvider, Settings settings) : ReactiveViewModelBase
 {

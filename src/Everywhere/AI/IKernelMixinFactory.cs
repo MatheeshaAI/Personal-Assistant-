@@ -1,4 +1,4 @@
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// Represents a factory for creating instances of <see cref="IKernelMixin"/>.

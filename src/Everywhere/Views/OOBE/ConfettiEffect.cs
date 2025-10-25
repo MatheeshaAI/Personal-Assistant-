@@ -3,7 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Media;
 using Path = Avalonia.Controls.Shapes.Path;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 /// <summary>
 /// A canvas control that renders a confetti animation effect.

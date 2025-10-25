@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Layout;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public class UniformStackPanel : StackPanel
 {

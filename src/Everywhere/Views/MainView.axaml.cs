@@ -2,10 +2,10 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Threading;
-using Everywhere.Configuration;
+using AlfredGPT.Configuration;
 using ShadUI.Themes;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public partial class MainView : ReactiveUserControl<MainViewModel>
 {

@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary
   xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:common="clr-namespace:Everywhere.Common" xmlns:v="using:Everywhere.Views">
+  xmlns:common="clr-namespace:AlfredGPT.Common" xmlns:v="using:AlfredGPT.Views">
   <Design.PreviewWith>
     <v:IconEditor/>
   </Design.PreviewWith>

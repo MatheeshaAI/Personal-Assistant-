@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Extensions;
+﻿namespace AlfredGPT.Extensions;
 
 public static class ReflectionExtension
 {

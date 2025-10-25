@@ -1,15 +1,15 @@
 using System.Collections.ObjectModel;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Everywhere.Chat.Plugins;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Utilities;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Utilities;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ZLinq;
 
-namespace Everywhere.Initialization;
+namespace AlfredGPT.Initialization;
 
 /// <summary>
 /// Initializes the settings with dynamic defined list.

@@ -3,7 +3,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net9.0-windows10.0.20348.0</TargetFramework>
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
-    <ApplicationIcon>..\..\img\Everywhere.ico</ApplicationIcon>
+    <ApplicationIcon>..\..\img\AlfredGPT.ico</ApplicationIcon>
     <IsDeploymentTarget>true</IsDeploymentTarget>
   </PropertyGroup>
 
@@ -12,9 +12,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <WatchdogProject>..\Everywhere.Watchdog\Everywhere.Watchdog.csproj</WatchdogProject>
+    <WatchdogProject>..\AlfredGPT.Watchdog\AlfredGPT.Watchdog.csproj</WatchdogProject>
     <WatchdogOutDir>$(MSBuildThisFileDirectory)$(WatchdogProject)\..\bin\$(Configuration)\net9.0\win-x64\publish\</WatchdogOutDir>
-    <WatchdogExecutable>$(WatchdogOutDir)Everywhere.Watchdog.exe</WatchdogExecutable>
+    <WatchdogExecutable>$(WatchdogOutDir)AlfredGPT.Watchdog.exe</WatchdogExecutable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -37,15 +37,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\3rd\EverythingNetCore\EverythingNet\EverythingNet.csproj" />
-    <ProjectReference Include="..\Everywhere\Everywhere.csproj"/>
+    <ProjectReference Include="..\AlfredGPT\AlfredGPT.csproj"/>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\img\Everywhere.ico">
-      <Link>Everywhere.ico</Link>
+    <None Include="..\..\img\AlfredGPT.ico">
+      <Link>AlfredGPT.ico</Link>
     </None>
     <Content Include="$(WatchdogExecutable)">
-      <Link>Everywhere.Watchdog.exe</Link>
+      <Link>AlfredGPT.Watchdog.exe</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

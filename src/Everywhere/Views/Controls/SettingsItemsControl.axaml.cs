@@ -1,5 +1,5 @@
 ﻿using Avalonia.Controls;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public class SettingsItemsControl : ItemsControl;

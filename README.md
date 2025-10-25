@@ -1,17 +1,17 @@
 <a id="readme-top"></a>
 
-<a href="https://github.com/DearVa/Everywhere/blob/main/README-zh-cn.md">前往中文版本 »</a>
+<a href="https://github.com/DearVa/AlfredGPT/blob/main/README-zh-cn.md">前往中文版本 »</a>
 
 [![.NET 9][.NET 9]][.NET-url][![Avalonia][Avalonia]][Avalonia-url]
 [![Join Discord](https://dcbadge.limes.pink/api/server/5fyg6nE3yn)](https://discord.gg/5fyg6nE3yn)
 [![Join QQ Group][QQ-Group]](https://qm.qq.com/cgi-bin/qm/qr?k=wp9aDBBnLc7pYATqT99tB-N2ZP2ETmJC&jump_from=webapi&authKey=97qUJfsQoI70dUNcgBZ0C3HCZeiEn8inLT7pzg8x+KinbQwfIrHFu3dB2+aHMbRD)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DearVa/Everywhere/refs/heads/main/img/banner.webp" alt="Banner"/>
+  <img src="https://raw.githubusercontent.com/DearVa/AlfredGPT/refs/heads/main/img/banner.webp" alt="Banner"/>
 
   <h1>
 
-Every moment, Every place. Your AI - `Everywhere`
+Every moment, Every place. Your AI - `AlfredGPT`
 
   </h1>
 
@@ -23,17 +23,17 @@ Every moment, Every place. Your AI - `Everywhere`
     <a href="https://youtu.be/BGujYa5hbXo"><strong>Watch the trailer »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DearVa/Everywhere">View Demo</a>
+    <a href="https://github.com/DearVa/AlfredGPT">View Demo</a>
     &middot;
-    <a href="https://github.com/DearVa/Everywhere/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
+    <a href="https://github.com/DearVa/AlfredGPT/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/DearVa/Everywhere/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
+    <a href="https://github.com/DearVa/AlfredGPT/issues/new?labels=enhancement&template=feature-request.md">Request Feature</a>
 
 </div>
 
-## About Everywhere
+## About AlfredGPT
 
-**Everywhere** is an interactive AI assistant with context-aware capabilities, featuring a sleek, modern UI and powerful integrated functionality. Unlike traditional AI tools, Everywhere instantly perceives and understands anything on your screen. No need for screenshots, copying, or switching apps—just press a shortcut key to get the help you need right where you are, delivering seamless AI assistant support.
+**AlfredGPT** is an interactive AI assistant with context-aware capabilities, featuring a sleek, modern UI and powerful integrated functionality. Unlike traditional AI tools, AlfredGPT instantly perceives and understands anything on your screen. No need for screenshots, copying, or switching apps—just press a shortcut key to get the help you need right where you are, delivering seamless AI assistant support.
 
 ### 🌟 Experience Examples
 
@@ -42,11 +42,11 @@ Every moment, Every place. Your AI - `Everywhere`
 
 > You encounter an error message while using your computer but are unsure how to resolve it
 >
-> 📌 **Invoke Everywhere** next to the error message
+> 📌 **Invoke AlfredGPT** next to the error message
 >
 > 🗣️ **Command:** "What is this error? How to solve it?"
 >
-> ✨ **Result:** Everywhere captures the message context and provides a solution
+> ✨ **Result:** AlfredGPT captures the message context and provides a solution
 
 </details>
 
@@ -55,7 +55,7 @@ Every moment, Every place. Your AI - `Everywhere`
 
 > You're browsing a lengthy technical article but need just the key points
 >
-> 📌 **Invoke Everywhere** over the webpage
+> 📌 **Invoke AlfredGPT** over the webpage
 >
 > 🗣️ **Command:** "Give me a 3-point summary of this"
 >
@@ -68,7 +68,7 @@ Every moment, Every place. Your AI - `Everywhere`
 
 > You encounter text in a foreign language while researching
 >
-> 📌 **Invoke Everywhere** over the text
+> 📌 **Invoke AlfredGPT** over the text
 >
 > 🗣️ **Command:** "Translate this to English"
 >
@@ -81,7 +81,7 @@ Every moment, Every place. Your AI - `Everywhere`
 
 > You're writing an important business email but unsure about the tone
 >
-> 📌 **Invoke Everywhere** over your draft
+> 📌 **Invoke AlfredGPT** over your draft
 >
 > 🗣️ **Command:** "Make this sound more professional"
 >
@@ -166,7 +166,7 @@ Every moment, Every place. Your AI - `Everywhere`
         • 中文 (繁體)<br>
         • 中文 (繁體 香港特別行政區)<br><br>
         <b>Contributions Welcome</b><br>
-        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | Everywhere" /></a>
+        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | AlfredGPT" /></a>
       </td>
     </tr>
   </tbody>
@@ -186,9 +186,9 @@ Every moment, Every place. Your AI - `Everywhere`
 
 - Windows
 
-  Download here: [Latest Release](https://github.com/DearVa/Everywhere/releases/latest)
+  Download here: [Latest Release](https://github.com/DearVa/AlfredGPT/releases/latest)
 
-  Where the `Everywhere-Windows-x64-Setup-vx.x.x.exe` is installer package and the `Everywhere-Windows-x64-vx.x.x.zip`
+  Where the `AlfredGPT-Windows-x64-Setup-vx.x.x.exe` is installer package and the `AlfredGPT-Windows-x64-vx.x.x.zip`
   is install-free package. Their content are in the same.
 
 - macOS and Linux
@@ -212,8 +212,8 @@ We welcome issues, feature ideas, and PRs! See [CONTRIBUTING.md](CONTRIBUTING.md
 
 ### Top contributors:
 
-<a href="https://github.com/DearVa/Everywhere/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DearVa/Everywhere" alt="contrib.rocks image" />
+<a href="https://github.com/DearVa/AlfredGPT/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DearVa/AlfredGPT" alt="contrib.rocks image" />
 </a>
 
 ## 📄 License
@@ -230,11 +230,11 @@ The Code Signing Certificate for this project is sponsored by [Certum China](htt
 
 ## 📈 Star History
 
-<a href="https://www.star-history.com/#DearVa/Everywhere&Date">
+<a href="https://www.star-history.com/#DearVa/AlfredGPT&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=DearVa/Everywhere&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=DearVa/Everywhere&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=DearVa/Everywhere&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=DearVa/AlfredGPT&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=DearVa/AlfredGPT&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=DearVa/AlfredGPT&type=Date" />
  </picture>
 </a>
 

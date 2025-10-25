@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Interop;
+﻿namespace AlfredGPT.Interop;
 
 public enum PickElementMode
 {

@@ -2,7 +2,7 @@
 using Avalonia.Media;
 using MessagePack;
 
-namespace Everywhere.Serialization;
+namespace AlfredGPT.Serialization;
 
 /// <summary>
 /// Represents an inline element in a message, such as text or line breaks.

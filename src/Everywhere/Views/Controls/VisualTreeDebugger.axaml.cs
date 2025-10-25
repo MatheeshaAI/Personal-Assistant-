@@ -9,10 +9,10 @@ using Avalonia.Interactivity;
 using Avalonia.Media;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Common;
-using Everywhere.Interop;
+using AlfredGPT.Common;
+using AlfredGPT.Interop;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public partial class VisualTreeDebugger : UserControl
 {

@@ -5,7 +5,7 @@ using Avalonia.Controls.Templates;
 using Avalonia.Media;
 using ZLinq;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 /// <summary>
 /// Represents a single settings item for View.

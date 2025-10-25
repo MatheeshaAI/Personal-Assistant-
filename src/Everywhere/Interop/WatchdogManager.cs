@@ -1,13 +1,13 @@
 ﻿using System.Diagnostics;
 using System.IO.Pipes;
-using Everywhere.Common;
-using Everywhere.Rpc;
+using AlfredGPT.Common;
+using AlfredGPT.Rpc;
 using MessagePack;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Nito.AsyncEx;
 
-namespace Everywhere.Interop;
+namespace AlfredGPT.Interop;
 
 /// <summary>
 /// Manages the lifecycle and communication with the Watchdog process.
@@ -42,7 +42,7 @@ public class WatchdogManager : IWatchdogManager, IAsyncInitializer
             throw new InvalidOperationException("WatchdogManager is already initialized.");
         }
 
-        var pipeName = $"Everywhere.Watchdog-{Guid.NewGuid()}";
+        var pipeName = $"AlfredGPT.Watchdog-{Guid.NewGuid()}";
         _serverStream = new NamedPipeServerStream(
             pipeName,
             PipeDirection.Out, // The host application only sends commands.
@@ -54,7 +54,7 @@ public class WatchdogManager : IWatchdogManager, IAsyncInitializer
         _logger.LogDebug("Launching Watchdog process with pipe name: {PipeName}", pipeName);
         _watchdogProcess = Process.Start(new ProcessStartInfo
         {
-            FileName = "Everywhere.Watchdog.exe",
+            FileName = "AlfredGPT.Watchdog.exe",
             Arguments = pipeName,
             RedirectStandardOutput = true,
             RedirectStandardError = true,

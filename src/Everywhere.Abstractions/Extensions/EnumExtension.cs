@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Runtime.Serialization;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class EnumExtension
 {

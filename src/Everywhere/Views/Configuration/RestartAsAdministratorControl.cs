@@ -1,12 +1,12 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Layout;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.Interop;
+using AlfredGPT.Interop;
 using Lucide.Avalonia;
 using Microsoft.Extensions.Logging;
 using ShadUI;
 
-namespace Everywhere.Views.Configuration;
+namespace AlfredGPT.Views.Configuration;
 
 public class RestartAsAdministratorControl : ContentControl
 {

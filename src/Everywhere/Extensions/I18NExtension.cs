@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class I18NExtension
 {

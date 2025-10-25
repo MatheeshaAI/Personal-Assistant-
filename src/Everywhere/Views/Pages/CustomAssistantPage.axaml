@@ -1,8 +1,8 @@
 ﻿<UserControl
-  x:Class="Everywhere.Views.Pages.CustomAssistantPage" xmlns="https://github.com/avaloniaui"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ai="clr-namespace:Everywhere.AI"
-  xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI" xmlns:v="clr-namespace:Everywhere.Views"
-  xmlns:vm="clr-namespace:Everywhere.ViewModels" x:DataType="vm:CustomAssistantPageViewModel">
+  x:Class="AlfredGPT.Views.Pages.CustomAssistantPage" xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ai="clr-namespace:AlfredGPT.AI"
+  xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI" xmlns:v="clr-namespace:AlfredGPT.Views"
+  xmlns:vm="clr-namespace:AlfredGPT.ViewModels" x:DataType="vm:CustomAssistantPageViewModel">
   <Grid
     ColumnDefinitions="*,8,3*" RowDefinitions="Auto,*"
     RowSpacing="16">

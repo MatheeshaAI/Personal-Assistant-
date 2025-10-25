@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Everywhere.Utilities;
+namespace AlfredGPT.Utilities;
 
 /// <summary>
 /// Represents a reference to an object that can be switched between a strong and a weak reference.

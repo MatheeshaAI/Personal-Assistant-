@@ -1,11 +1,11 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Platform;
-using Everywhere.Common;
+using AlfredGPT.Common;
 using LiveMarkdown.Avalonia;
 using Microsoft.Extensions.Logging;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public partial class ChangeLogView : ReactiveUserControl<ChangeLogViewModel>
 {
@@ -29,7 +29,7 @@ public partial class ChangeLogView : ReactiveUserControl<ChangeLogViewModel>
         {
             MarkdownBuilder.Clear();
 
-            using var changeLogReader = new StreamReader(AssetLoader.Open(new Uri("avares://Everywhere/Assets/CHANGELOG.md", UriKind.Absolute)));
+            using var changeLogReader = new StreamReader(AssetLoader.Open(new Uri("avares://AlfredGPT/Assets/CHANGELOG.md", UriKind.Absolute)));
 
             var maxLines = 100;
             while (changeLogReader.ReadLine() is { } line && maxLines-- > 0)

@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 /// <summary>
 /// This class is used to wrap a customizable property.

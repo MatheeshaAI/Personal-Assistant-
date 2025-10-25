@@ -1,10 +1,10 @@
 ﻿using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
-using Everywhere.Interop;
+using AlfredGPT.Interop;
 using ZLinq;
 
-namespace Everywhere.Chat;
+namespace AlfredGPT.Chat;
 
 public enum VisualTreeDetailLevel
 {

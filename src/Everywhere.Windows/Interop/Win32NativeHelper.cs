@@ -12,18 +12,18 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media.Imaging;
 using Avalonia.Platform;
-using Everywhere.Common;
-using Everywhere.Extensions;
-using Everywhere.Interop;
+using AlfredGPT.Common;
+using AlfredGPT.Extensions;
+using AlfredGPT.Interop;
 using Microsoft.Win32;
 using Vector = Avalonia.Vector;
 using Visual = Windows.UI.Composition.Visual;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 public class Win32NativeHelper : INativeHelper
 {
-    private const string AppName = nameof(Everywhere);
+    private const string AppName = nameof(AlfredGPT);
     private const string RegistryInstallKey = @"Software\Microsoft\Windows\CurrentVersion\Uninstall\{D66EA41B-8DEB-4E5A-9D32-AB4F8305F664}}_is1";
     private const string RegistryRunKey = @"Software\Microsoft\Windows\CurrentVersion\Run";
     private static string ProcessPathWithArgument => $"\"{Environment.ProcessPath}\" --autorun";
@@ -212,12 +212,12 @@ public class Win32NativeHelper : INativeHelper
 
     public void ShowDesktopNotification(string message, string? title)
     {
-        const string ModelId = "Everywhere-{FF7A2913-28D0-4BC2-A5BC-F2CF62FF6F1F}";
+        const string ModelId = "AlfredGPT-{FF7A2913-28D0-4BC2-A5BC-F2CF62FF6F1F}";
         var registryKey = Registry.CurrentUser.CreateSubKey(@"Software\Classes\AppUserModelId");
         var subKey = registryKey.CreateSubKey(ModelId);
-        subKey.SetValue("DisplayName", "Everywhere");
+        subKey.SetValue("DisplayName", "AlfredGPT");
 
-        var iconResource = AssetLoader.Open(new Uri("avares://Everywhere/Assets/Everywhere.ico"));
+        var iconResource = AssetLoader.Open(new Uri("avares://AlfredGPT/Assets/AlfredGPT.ico"));
         var tempFilePath = Path.Combine(Path.GetTempPath(), $"{ModelId}.ico");
         using (var fs = File.Create(tempFilePath))
         {

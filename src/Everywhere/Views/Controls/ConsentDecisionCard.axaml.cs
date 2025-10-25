@@ -1,9 +1,9 @@
 ﻿using Avalonia.Interactivity;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.Chat.Permissions;
+using AlfredGPT.Chat.Permissions;
 using ShadUI;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public class ConsentDecisionEventArgs(ConsentDecision decision) : RoutedEventArgs
 {

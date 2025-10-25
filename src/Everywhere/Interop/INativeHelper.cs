@@ -1,6 +1,6 @@
 ﻿using Avalonia.Media.Imaging;
 
-namespace Everywhere.Interop;
+namespace AlfredGPT.Interop;
 
 public interface INativeHelper
 {

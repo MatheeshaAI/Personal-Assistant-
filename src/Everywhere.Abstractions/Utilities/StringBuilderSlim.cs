@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Utilities;
+﻿namespace AlfredGPT.Utilities;
 
 public ref struct StringBuilderSlim(Span<char> buffer)
 {

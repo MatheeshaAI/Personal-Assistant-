@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Everywhere.Database.Migrations
+namespace AlfredGPT.Database.Migrations
 {
     /// <inheritdoc />
     public partial class BlobStorage : Migration

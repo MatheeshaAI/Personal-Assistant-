@@ -3,12 +3,12 @@ using Avalonia.Controls;
 using Avalonia.Input.Platform;
 using Avalonia.Platform.Storage;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Common;
-using Everywhere.Utilities;
-using Everywhere.Views;
+using AlfredGPT.Common;
+using AlfredGPT.Utilities;
+using AlfredGPT.Views;
 using ShadUI;
 
-namespace Everywhere.ViewModels;
+namespace AlfredGPT.ViewModels;
 
 public abstract class ReactiveViewModelBase : ObservableValidator
 {

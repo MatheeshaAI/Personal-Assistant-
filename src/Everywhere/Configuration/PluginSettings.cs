@@ -1,6 +1,6 @@
 ﻿using ObservableCollections;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 public class PluginSettings : SettingsCategory
 {

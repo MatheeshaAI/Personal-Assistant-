@@ -2,7 +2,7 @@
 // ReSharper disable IdentifierTypo
 // ReSharper disable UnusedMember.Local
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 internal enum WINDOW_MESSAGE
 {

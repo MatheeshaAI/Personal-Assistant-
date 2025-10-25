@@ -9,10 +9,10 @@ using Avalonia.Input;
 using Avalonia.Layout;
 using Avalonia.Media;
 using Avalonia.Media.Imaging;
-using Everywhere.Interop;
+using AlfredGPT.Interop;
 using Point = System.Drawing.Point;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 public partial class Win32VisualElementContext
 {

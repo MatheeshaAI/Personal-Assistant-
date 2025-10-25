@@ -1,10 +1,10 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.Chat.Plugins;
+using AlfredGPT.Chat.Plugins;
 using ZLinq;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public partial class TextDifferenceSummaryView : TemplatedControl
 {

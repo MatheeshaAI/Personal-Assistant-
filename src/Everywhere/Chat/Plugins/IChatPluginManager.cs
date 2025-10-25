@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using Everywhere.AI;
+using AlfredGPT.AI;
 using ObservableCollections;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 /// <summary>
 /// Manages chat plugins, both built-in and MCP (Modular Chat Plugin) plugins.

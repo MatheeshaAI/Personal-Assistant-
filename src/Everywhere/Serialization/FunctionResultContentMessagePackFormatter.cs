@@ -1,9 +1,9 @@
-﻿using Everywhere.Chat;
+﻿using AlfredGPT.Chat;
 using MessagePack;
 using MessagePack.Formatters;
 using Microsoft.SemanticKernel;
 
-namespace Everywhere.Serialization;
+namespace AlfredGPT.Serialization;
 
 public class FunctionResultContentMessagePackFormatter : IMessagePackFormatter<FunctionResultContent?>
 {

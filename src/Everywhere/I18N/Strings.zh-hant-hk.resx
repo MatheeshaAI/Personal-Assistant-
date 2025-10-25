@@ -45,9 +45,9 @@
         <value>中文 (繁體 香港特別行政區)</value>
     </data>
     <data name="ChangeLogView_FeatureRequestHyperlinkButton_NavigateUri" xml:space="preserve">
-        <value>https://github.com/DearVa/Everywhere/issues/new?template=feature-request.yml</value>
+        <value>https://github.com/DearVa/AlfredGPT/issues/new?template=feature-request.yml</value>
     </data>
     <data name="ChangeLogView_ReportBugHyperlinkButton_NavigateUri" xml:space="preserve">
-        <value>https://github.com/DearVa/Everywhere/issues/new?template=bug-report.yml</value>
+        <value>https://github.com/DearVa/AlfredGPT/issues/new?template=bug-report.yml</value>
     </data>
 </root>

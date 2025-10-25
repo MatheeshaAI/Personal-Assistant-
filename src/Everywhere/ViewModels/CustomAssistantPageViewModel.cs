@@ -2,14 +2,14 @@
 using Avalonia.Media;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.AI;
-using Everywhere.Common;
-using Everywhere.Configuration;
+using AlfredGPT.AI;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
 using Lucide.Avalonia;
 using Serilog;
 using ShadUI;
 
-namespace Everywhere.ViewModels;
+namespace AlfredGPT.ViewModels;
 
 public partial class CustomAssistantPageViewModel(IKernelMixinFactory kernelMixinFactory, Settings settings) : ReactiveViewModelBase
 {

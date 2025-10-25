@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Configuration;
+﻿namespace AlfredGPT.Configuration;
 
 public interface IRuntimeConstantProvider
 {

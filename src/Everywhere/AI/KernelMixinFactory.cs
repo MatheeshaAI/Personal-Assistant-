@@ -1,6 +1,6 @@
-﻿using Everywhere.Common;
+﻿using AlfredGPT.Common;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// A factory for creating instances of <see cref="IKernelMixin"/>.

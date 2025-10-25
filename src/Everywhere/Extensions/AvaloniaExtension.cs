@@ -1,11 +1,11 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
-using Everywhere.Views;
+using AlfredGPT.Views;
 using Microsoft.Extensions.DependencyInjection;
 using ShadUI;
 using ZLinq;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class AvaloniaExtension
 {

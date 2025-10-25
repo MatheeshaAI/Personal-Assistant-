@@ -1,6 +1,6 @@
 ﻿using Lucide.Avalonia;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public interface IMainViewPage
 {

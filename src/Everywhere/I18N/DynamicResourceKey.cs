@@ -2,10 +2,10 @@
 using System.Text.Json.Serialization;
 using Avalonia.Controls;
 using Avalonia.Reactive;
-using Everywhere.Utilities;
+using AlfredGPT.Utilities;
 using MessagePack;
 
-namespace Everywhere.I18N;
+namespace AlfredGPT.I18N;
 
 /// <summary>
 /// MessagePack serializable base class for dynamic resource keys. Make them happy.

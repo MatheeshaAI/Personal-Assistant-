@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Configuration;
+﻿namespace AlfredGPT.Configuration;
 
 /// <summary>
 /// This attribute is used to mark properties that should not be serialized or displayed in the UI.

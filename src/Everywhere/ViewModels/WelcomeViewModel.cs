@@ -1,14 +1,14 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.AI;
-using Everywhere.Common;
-using Everywhere.Configuration;
+using AlfredGPT.AI;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
 using Microsoft.Extensions.Logging;
 using ShadUI;
 using ZLinq;
 
-namespace Everywhere.ViewModels;
+namespace AlfredGPT.ViewModels;
 
 public partial class WelcomeViewModel : BusyViewModelBase
 {

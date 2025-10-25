@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Everywhere.Utilities;
+namespace AlfredGPT.Utilities;
 
 /// <summary>
 /// A thread-safe dictionary-like collection that can switch between holding strong and weak references to its values.

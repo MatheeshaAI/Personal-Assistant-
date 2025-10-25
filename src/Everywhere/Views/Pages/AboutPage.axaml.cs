@@ -1,6 +1,6 @@
 ﻿using Lucide.Avalonia;
 
-namespace Everywhere.Views.Pages;
+namespace AlfredGPT.Views.Pages;
 
 public partial class AboutPage : ReactiveUserControl<AboutPageViewModel>, IMainViewPage
 {

@@ -1,7 +1,7 @@
 ﻿<v:ReactiveUserControl
-  x:Class="Everywhere.Views.MainView" xmlns="https://github.com/avaloniaui"
+  x:Class="AlfredGPT.Views.MainView" xmlns="https://github.com/avaloniaui"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI"
-  xmlns:v="clr-namespace:Everywhere.Views" xmlns:vm="clr-namespace:Everywhere.ViewModels"
+  xmlns:v="clr-namespace:AlfredGPT.Views" xmlns:vm="clr-namespace:AlfredGPT.ViewModels"
   x:DataType="vm:MainViewModel" x:TypeArguments="vm:MainViewModel">
   <Grid ColumnDefinitions="Auto,*">
     <shadui:Sidebar

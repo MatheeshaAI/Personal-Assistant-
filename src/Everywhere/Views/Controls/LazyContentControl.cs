@@ -5,7 +5,7 @@ using Avalonia.Controls.Templates;
 using Avalonia.LogicalTree;
 using Avalonia.Metadata;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 /// <summary>
 /// A ContentControl that supports lazy loading of its content based on the ItemIndex property.

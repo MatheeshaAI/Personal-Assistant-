@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using Lucide.Avalonia;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 /// <summary>
 /// Represents a category of settings in the application.

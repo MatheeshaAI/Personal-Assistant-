@@ -1,6 +1,6 @@
 ﻿using LiveMarkdown.Avalonia;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 /// <summary>
 /// Allows chat plugins to display content in the user interface.

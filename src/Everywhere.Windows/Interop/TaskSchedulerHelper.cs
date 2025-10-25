@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 public static class TaskSchedulerHelper
 {

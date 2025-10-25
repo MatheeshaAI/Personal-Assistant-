@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Everywhere", "src\Everywhere\Everywhere.csproj", "{EBFA8512-1EA5-4D8C-B4AC-AB5B48A6D568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlfredGPT", "src\AlfredGPT\AlfredGPT.csproj", "{EBFA8512-1EA5-4D8C-B4AC-AB5B48A6D568}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Everywhere.Windows", "src\Everywhere.Windows\Everywhere.Windows.csproj", "{ABC31E74-02FF-46EB-B3B2-4E6AE43B456C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlfredGPT.Windows", "src\AlfredGPT.Windows\AlfredGPT.Windows.csproj", "{ABC31E74-02FF-46EB-B3B2-4E6AE43B456C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DA99C4E-89E3-4049-9C22-0A7EC60D83D8}"
 	ProjectSection(SolutionItems) = preProject
@@ -31,7 +31,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rd", "3rd", "{53D93485-152
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everywhere.I18N.SourceGenerator", "src\Everywhere.I18N.SourceGenerator\Everywhere.I18N.SourceGenerator.csproj", "{A68C1BEB-0FC2-4A47-BFEB-E96BB14A9913}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfredGPT.I18N.SourceGenerator", "src\AlfredGPT.I18N.SourceGenerator\AlfredGPT.I18N.SourceGenerator.csproj", "{A68C1BEB-0FC2-4A47-BFEB-E96BB14A9913}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritableJsonConfiguration", "3rd\WritableJsonConfiguration\src\WritableJsonConfiguration\WritableJsonConfiguration.csproj", "{85AE2A7B-E780-4741-9BE5-FB22F37D7E21}"
 EndProject
@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadUI", "3rd\shad-ui\src\S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9933B251-881A-4638-8995-EB7CC5370002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everywhere.Tests", "tests\Everywhere.Tests\Everywhere.Tests.csproj", "{0E6C8529-D309-43F3-90BC-619EF9E6B1F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfredGPT.Tests", "tests\AlfredGPT.Tests\AlfredGPT.Tests.csproj", "{0E6C8529-D309-43F3-90BC-619EF9E6B1F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessagePack", "MessagePack", "{5BB51AE6-908C-4D20-BB3A-4815E9BC5D19}"
 EndProject
@@ -71,9 +71,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{30A74410
 		tools\installer.iss = tools\installer.iss
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everywhere.Watchdog", "src\Everywhere.Watchdog\Everywhere.Watchdog.csproj", "{2BACDFDD-0944-41E3-94C2-6B7B6626C845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfredGPT.Watchdog", "src\AlfredGPT.Watchdog\AlfredGPT.Watchdog.csproj", "{2BACDFDD-0944-41E3-94C2-6B7B6626C845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everywhere.Abstractions", "src\Everywhere.Abstractions\Everywhere.Abstractions.csproj", "{EF3FC306-C1CC-4E26-B49D-9E0E1FB9891E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfredGPT.Abstractions", "src\AlfredGPT.Abstractions\AlfredGPT.Abstractions.csproj", "{EF3FC306-C1CC-4E26-B49D-9E0E1FB9891E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritableJsonConfiguration.Tests", "3rd\WritableJsonConfiguration\WritableJsonConfiguration.Tests\WritableJsonConfiguration.Tests.csproj", "{6B85590F-763A-472E-84B9-091D6F68D28D}"
 EndProject

@@ -1,6 +1,6 @@
 ﻿using ZLinq;
 
-namespace Everywhere.Storage;
+namespace AlfredGPT.Storage;
 
 public static class MimeTypeUtilities
 {

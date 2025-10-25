@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel;
-using Everywhere.AI;
-using Everywhere.Database;
-using Everywhere.Interop;
-using Everywhere.Storage;
+using AlfredGPT.AI;
+using AlfredGPT.Database;
+using AlfredGPT.Interop;
+using AlfredGPT.Storage;
 using Lucide.Avalonia;
 using Microsoft.SemanticKernel;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 public class VisualTreePlugin : BuiltInChatPlugin
 {

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class DebugExtension
 {

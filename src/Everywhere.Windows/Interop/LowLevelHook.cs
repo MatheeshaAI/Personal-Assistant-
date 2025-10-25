@@ -4,7 +4,7 @@ using Windows.Win32;
 using Windows.Win32.Foundation;
 using Windows.Win32.UI.WindowsAndMessaging;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 /// <summary>
 /// Callback for <see cref="LowLevelHook{T}"/>. Return true to block the message.

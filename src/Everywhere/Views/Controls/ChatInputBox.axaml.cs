@@ -8,11 +8,11 @@ using Avalonia.Interactivity;
 using Avalonia.LogicalTree;
 using Avalonia.Media;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.AI;
-using Everywhere.Chat;
-using Everywhere.Utilities;
+using AlfredGPT.AI;
+using AlfredGPT.Chat;
+using AlfredGPT.Utilities;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 [TemplatePart("PART_SendButton", typeof(Button), IsRequired = true)]
 [TemplatePart("PART_ChatAttachmentItemsControl", typeof(ItemsControl), IsRequired = true)]

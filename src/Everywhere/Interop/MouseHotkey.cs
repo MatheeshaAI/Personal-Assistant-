@@ -1,6 +1,6 @@
 ﻿using Avalonia.Input;
 
-namespace Everywhere.Interop;
+namespace AlfredGPT.Interop;
 
 /// <summary>
 /// Represents a mouse hotkey with a specific button and delay.

@@ -2,10 +2,10 @@
 using Avalonia.Controls.Primitives;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.Chat.Plugins;
+using AlfredGPT.Chat.Plugins;
 using ZLinq;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public enum TextDifferenceLineKind
 {

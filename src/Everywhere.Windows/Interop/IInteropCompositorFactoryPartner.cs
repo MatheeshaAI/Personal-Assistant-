@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.Marshalling;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 [GeneratedComInterface]
 [Guid("22118adf-23f1-4801-bcfa-66cbf48cc51b")]

@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary
   xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:permissions="clr-namespace:Everywhere.Chat.Permissions" xmlns:v="using:Everywhere.Views">
+  xmlns:permissions="clr-namespace:AlfredGPT.Chat.Permissions" xmlns:v="using:AlfredGPT.Views">
   <Design.PreviewWith>
     <v:ConsentDecisionCard/>
   </Design.PreviewWith>

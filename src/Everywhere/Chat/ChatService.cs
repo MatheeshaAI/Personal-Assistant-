@@ -3,14 +3,14 @@ using System.Text;
 using System.Text.Json;
 using Anthropic.SDK.Messaging;
 using Avalonia.Threading;
-using Everywhere.AI;
-using Everywhere.Chat.Permissions;
-using Everywhere.Chat.Plugins;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Interop;
-using Everywhere.Storage;
-using Everywhere.Utilities;
+using AlfredGPT.AI;
+using AlfredGPT.Chat.Permissions;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Interop;
+using AlfredGPT.Storage;
+using AlfredGPT.Utilities;
 using LiveMarkdown.Avalonia;
 using Lucide.Avalonia;
 using Microsoft.Extensions.AI;
@@ -21,14 +21,14 @@ using Microsoft.SemanticKernel.ChatCompletion;
 using OpenAI.Chat;
 using Serilog;
 using ZLinq;
-using ChatFunction = Everywhere.Chat.Plugins.ChatFunction;
+using ChatFunction = AlfredGPT.Chat.Plugins.ChatFunction;
 using ChatMessageContent = Microsoft.SemanticKernel.ChatMessageContent;
 using FunctionCallContent = Microsoft.SemanticKernel.FunctionCallContent;
 using FunctionResultContent = Microsoft.SemanticKernel.FunctionResultContent;
 using ImageContent = Microsoft.SemanticKernel.ImageContent;
 using TextContent = Microsoft.SemanticKernel.TextContent;
 
-namespace Everywhere.Chat;
+namespace AlfredGPT.Chat;
 
 public class ChatService(
     IChatContextManager chatContextManager,

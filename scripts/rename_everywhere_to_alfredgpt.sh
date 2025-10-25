@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-OLD="Everywhere"
+OLD="AlfredGPT"
 NEW="AlfredGPT"
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_ROOT"
@@ -11,7 +11,7 @@ if [ -n "$(git status --porcelain)" ]; then
   exit 1
 fi
 
-# Find files tracked by git that contain the exact token 'Everywhere'
+# Find files tracked by git that contain the exact token 'AlfredGPT'
 mapfile -t files < <(git grep -Il "\b$OLD\b" || true)
 if [ ${#files[@]} -eq 0 ]; then
   echo "No files found containing '$OLD'."
@@ -28,10 +28,10 @@ for f in "${files[@]}"; do
   # Replace exact token occurrences (word boundaries)
   sed -i "s/\b$OLD\b/$NEW/g" "$f"
 
-  # Replace avares resource scheme occurrences (avares://Everywhere/...)
+  # Replace avares resource scheme occurrences (avares://AlfredGPT/...)
   sed -i "s|avares://$OLD/|avares://$NEW/|g" "$f"
 
-  # Replace file/name patterns like Everywhere-Windows- or Everywhere.Windows.exe
+  # Replace file/name patterns like AlfredGPT-Windows- or AlfredGPT.Windows.exe
   sed -i "s/$OLD-/$NEW-/g" "$f" || true
   sed -i "s/$OLD\./$NEW\./g" "$f" || true
 

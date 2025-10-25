@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Chat.Permissions;
+﻿namespace AlfredGPT.Chat.Permissions;
 
 /// <summary>
 /// Represents the user's consent decision for a permission request.

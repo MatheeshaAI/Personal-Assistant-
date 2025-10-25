@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using Avalonia.Data.Converters;
 
-namespace Everywhere.ValueConverters;
+namespace AlfredGPT.ValueConverters;
 
 /// <summary>
 /// Converts a token count (int) to a human-readable string format (e.g., "1.2K" for 1245, "3.6M" for 3,600,000).

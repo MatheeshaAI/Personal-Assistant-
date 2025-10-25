@@ -2,14 +2,14 @@
 using System.Management.Automation;
 using System.Management.Automation.Runspaces;
 using System.Reflection;
-using Everywhere.Chat.Plugins;
-using Everywhere.I18N;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.I18N;
 using Lucide.Avalonia;
 using Microsoft.Extensions.Logging;
 using Microsoft.PowerShell;
 using Microsoft.SemanticKernel;
 
-namespace Everywhere.Windows.Chat.Plugins;
+namespace AlfredGPT.Windows.Chat.Plugins;
 
 public class PowerShellPlugin : BuiltInChatPlugin
 {
@@ -19,7 +19,7 @@ public class PowerShellPlugin : BuiltInChatPlugin
 
     public override LucideIconKind? Icon => LucideIconKind.SquareTerminal;
 
-    public override string BeautifulIcon => "avares://Everywhere.Windows/Assets/Icons/PowerShell.svg";
+    public override string BeautifulIcon => "avares://AlfredGPT.Windows/Assets/Icons/PowerShell.svg";
 
     private readonly ILogger<PowerShellPlugin> _logger;
 

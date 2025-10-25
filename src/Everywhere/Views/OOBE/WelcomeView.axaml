@@ -1,10 +1,10 @@
 ﻿<UserControl
-  x:Class="Everywhere.Views.WelcomeView" xmlns="https://github.com/avaloniaui"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ai="clr-namespace:Everywhere.AI"
-  xmlns:be="clr-namespace:Everywhere.Behaviors" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  x:Class="AlfredGPT.Views.WelcomeView" xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ai="clr-namespace:AlfredGPT.AI"
+  xmlns:be="clr-namespace:AlfredGPT.Behaviors" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:md="clr-namespace:LiveMarkdown.Avalonia;assembly=LiveMarkdown.Avalonia"
-  xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI" xmlns:v="clr-namespace:Everywhere.Views"
-  xmlns:vm="clr-namespace:Everywhere.ViewModels" d:DesignHeight="450"
+  xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI" xmlns:v="clr-namespace:AlfredGPT.Views"
+  xmlns:vm="clr-namespace:AlfredGPT.ViewModels" d:DesignHeight="450"
   d:DesignWidth="800" x:DataType="vm:WelcomeViewModel"
   mc:Ignorable="d">
   <Grid

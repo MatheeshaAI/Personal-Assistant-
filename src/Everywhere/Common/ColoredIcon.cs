@@ -3,7 +3,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using Lucide.Avalonia;
 using Color = Avalonia.Media.Color;
 
-namespace Everywhere.Common;
+namespace AlfredGPT.Common;
 
 public enum ColoredIconType
 {

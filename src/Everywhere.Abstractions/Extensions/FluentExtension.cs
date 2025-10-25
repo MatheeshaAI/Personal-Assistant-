@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class FluentExtension
 {

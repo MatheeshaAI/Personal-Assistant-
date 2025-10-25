@@ -104,7 +104,7 @@
         <value>Leaving this to default if you dont't know what to do. Must starts with "http(s)://".</value>
     </data>
     <data name="ChatInputBox_Watermark" xml:space="preserve">
-        <value>Ask Everywhere, or just chat</value>
+        <value>Ask AlfredGPT, or just chat</value>
     </data>
     <data name="ChatInputBox_AddAttachmentMenuItem_ToolTip" xml:space="preserve">
         <value>Add attachments to current session</value>
@@ -427,13 +427,13 @@
         <value>Open Source Licenses</value>
     </data>
     <data name="App_EverywhereIsAlreadyRunning" xml:space="preserve">
-        <value>Everywhere is already running, please check Tray Icon.</value>
+        <value>AlfredGPT is already running, please check Tray Icon.</value>
     </data>
     <data name="Common_Info" xml:space="preserve">
         <value>Info</value>
     </data>
     <data name="MainView_EverywhereHasMinimizedToTray" xml:space="preserve">
-        <value>Everywhere has minimized to tray</value>
+        <value>AlfredGPT has minimized to tray</value>
     </data>
     <data name="ChatWindow_HistoryAction_Rename" xml:space="preserve">
         <value>Rename</value>
@@ -445,7 +445,7 @@
         <value>Welcome Page</value>
     </data>
     <data name="WelcomeView_IntroStep_Message1" xml:space="preserve">
-        <value>👋 Welcome to Everywhere</value>
+        <value>👋 Welcome to AlfredGPT</value>
     </data>
     <data name="WelcomeView_IntroStep_Message2" xml:space="preserve">
         <value>Nice to meet you! Let me be your assistant and help you solve problems!</value>
@@ -457,10 +457,10 @@
         <value>Feature Request</value>
     </data>
     <data name="ChangeLogView_ReportBugHyperlinkButton_NavigateUri" xml:space="preserve">
-        <value>https://github.com/DearVa/Everywhere/issues/new?template=bug-report.yml</value>
+        <value>https://github.com/DearVa/AlfredGPT/issues/new?template=bug-report.yml</value>
     </data>
     <data name="ChangeLogView_FeatureRequestHyperlinkButton_NavigateUri" xml:space="preserve">
-        <value>https://github.com/DearVa/Everywhere/issues/new?template=feature-request.yml</value>
+        <value>https://github.com/DearVa/AlfredGPT/issues/new?template=feature-request.yml</value>
     </data>
     <data name="WelcomeView_DiscordHyperlinkButton_Content" xml:space="preserve">
         <value>Discord</value>
@@ -565,16 +565,16 @@
         <value>Run at Startup</value>
     </data>
     <data name="Settings_Common_IsStartupEnabled_Description" xml:space="preserve">
-        <value>Everywhere will run automatically after startup. If “Startup as Administrator” is enabled, the current option can only be disabled in administrator mode.</value>
+        <value>AlfredGPT will run automatically after startup. If “Startup as Administrator” is enabled, the current option can only be disabled in administrator mode.</value>
     </data>
     <data name="Settings_Common_IsAdministratorStartupEnabled_Header" xml:space="preserve">
         <value>Startup as Administrator</value>
     </data>
     <data name="Settings_Common_IsAdministratorStartupEnabled_Description" xml:space="preserve">
-        <value>Everywhere will start automatically as administrator. You can only turn this option on or off in administrator mode.</value>
+        <value>AlfredGPT will start automatically as administrator. You can only turn this option on or off in administrator mode.</value>
     </data>
     <data name="Settings_Common_RestartAsAdministrator_Description" xml:space="preserve">
-        <value>Due to operating system restrictions, when running any application as an administrator (elevated permissions), Everywhere may not work correctly when the elevated applications are in focus or trying to interact with a Everywhere feature like "Pick Element". This can be addressed by running Everywhere as administrator.</value>
+        <value>Due to operating system restrictions, when running any application as an administrator (elevated permissions), AlfredGPT may not work correctly when the elevated applications are in focus or trying to interact with a AlfredGPT feature like "Pick Element". This can be addressed by running AlfredGPT as administrator.</value>
     </data>
     <data name="Settings_Common_RestartAsAdministrator_Header" xml:space="preserve">
         <value>Restart as Administrator</value>
@@ -604,7 +604,7 @@
         <value>Unknown</value>
     </data>
     <data name="Settings_Common_SoftwareUpdate_Toast_AlreadyLatestVersion" xml:space="preserve">
-        <value>Everywhere is already the latest version.</value>
+        <value>AlfredGPT is already the latest version.</value>
     </data>
     <data name="Settings_Common_SoftwareUpdate_Toast_NewVersionFound" xml:space="preserve">
         <value>New version {0} found.</value>
@@ -613,13 +613,13 @@
         <value>Software Update</value>
     </data>
     <data name="Settings_Common_SoftwareUpdate_Description" xml:space="preserve">
-        <value>If an update is available, click Update and Everywhere will automatically download and install the latest version. You may need to select “Yes” in the pop-up window during the process.</value>
+        <value>If an update is available, click Update and AlfredGPT will automatically download and install the latest version. You may need to select “Yes” in the pop-up window during the process.</value>
     </data>
     <data name="Settings_Common_IsAutomaticUpdateCheckEnabled_Header" xml:space="preserve">
         <value>Automatic Update</value>
     </data>
     <data name="Settings_Common_IsAutomaticUpdateCheckEnabled_Description" xml:space="preserve">
-        <value>If enabled, Everywhere will periodically check for updates (only when Everywhere is running, without adding extra load to the system).</value>
+        <value>If enabled, AlfredGPT will periodically check for updates (only when AlfredGPT is running, without adding extra load to the system).</value>
     </data>
     <data name="Settings_Common_SoftwareUpdate_Toast_DownloadingUpdate" xml:space="preserve">
         <value>Downloading update...</value>
@@ -700,7 +700,7 @@
         <value>View on GitHub</value>
     </data>
     <data name="ChangeLogView_Header" xml:space="preserve">
-        <value>Everywhere has been updated to the latest version 🎉</value>
+        <value>AlfredGPT has been updated to the latest version 🎉</value>
     </data>
     <data name="ChangeLogView_Content" xml:space="preserve">
         <value>I'm still very young, so if you have any problems, feel free to click the link below for feedback, I'll keep on evolving!
@@ -736,7 +736,7 @@ Tip: You can reopen this message by clicking “About - What's new”.</value>
 My intelligence comes from powerful Large language models (LLMs), which are provided by the specialized service providers listed below. You can choose any one of them to power me.</value>
     </data>
     <data name="WelcomeView_SelectModelProviderStep_Message2" xml:space="preserve">
-        <value>Please select a provider you have or plan to use, and I'll tell you more about it. Don't worry, Everywhere is just an independent client and is not officially affiliated with them.</value>
+        <value>Please select a provider you have or plan to use, and I'll tell you more about it. Don't worry, AlfredGPT is just an independent client and is not officially affiliated with them.</value>
     </data>
     <data name="WelcomeView_ModelProviderWrapper_openai_Description" xml:space="preserve">
         <value>OpenAI is a popular provider of AI models, known for its GPT series and others. You can register and obtain an API key on their official website. Please check their list of supported countries and regions.</value>
@@ -1166,10 +1166,10 @@ Placeholders can be used within the prompt, enclosed in {}, and will be replaced
         <value>Discard All</value>
     </data>
     <data name="NativeChatPlugin_FileSystem_DeleteFiles_DeletionConsent_Header" xml:space="preserve">
-        <value>Everywhere 想要删除 {0} 个文件或文件夹</value>
+        <value>AlfredGPT 想要删除 {0} 个文件或文件夹</value>
     </data>
     <data name="NativeChatPlugin_FileSystem_DeleteFiles_SystemFile_DeletionConsent_Header" xml:space="preserve">
-        <value>Everywhere 想要删除系统文件</value>
+        <value>AlfredGPT 想要删除系统文件</value>
     </data>
     <data name="TextDifferenceEditor_DiscardButton_Content" xml:space="preserve">
         <value>Discard</value>

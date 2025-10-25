@@ -5,18 +5,18 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Extensions;
-using Everywhere.I18N;
-using Everywhere.Interop;
-using Everywhere.Windows.Interop;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Extensions;
+using AlfredGPT.I18N;
+using AlfredGPT.Interop;
+using AlfredGPT.Windows.Interop;
 using Microsoft.Extensions.Logging;
 #if !DEBUG
-using Everywhere.Utilities;
+using AlfredGPT.Utilities;
 #endif
 
-namespace Everywhere.Windows.Common;
+namespace AlfredGPT.Windows.Common;
 
 public sealed partial class SoftwareUpdater(
     INativeHelper nativeHelper,

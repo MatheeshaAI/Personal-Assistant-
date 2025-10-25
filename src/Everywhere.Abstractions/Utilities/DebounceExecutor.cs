@@ -1,4 +1,4 @@
-namespace Everywhere.Utilities;
+namespace AlfredGPT.Utilities;
 
 /// <summary>
 /// A high-performance, low-allocation debounced executor.

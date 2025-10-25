@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Chat.Plugins;
+﻿namespace AlfredGPT.Chat.Plugins;
 
 [Flags]
 public enum ChatFunctionPermissions

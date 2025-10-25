@@ -1,6 +1,6 @@
 ﻿using ShadUI;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public interface IReactiveHost
 {

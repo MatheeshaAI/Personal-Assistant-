@@ -3,18 +3,18 @@ using System.Diagnostics.CodeAnalysis;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.AI;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Storage;
-using Everywhere.Utilities;
+using AlfredGPT.AI;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Storage;
+using AlfredGPT.Utilities;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel.ChatCompletion;
 using ObservableCollections;
 using ZLinq;
 
-namespace Everywhere.Chat;
+namespace AlfredGPT.Chat;
 
 public partial class ChatContextManager : ObservableObject, IChatContextManager, IAsyncInitializer
 {

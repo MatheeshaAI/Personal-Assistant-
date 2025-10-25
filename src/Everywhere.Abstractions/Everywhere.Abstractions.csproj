@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <IsDeploymentTarget>true</IsDeploymentTarget>
-    <RootNamespace>Everywhere</RootNamespace>
+    <RootNamespace>AlfredGPT</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

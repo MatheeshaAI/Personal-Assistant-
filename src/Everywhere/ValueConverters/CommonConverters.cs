@@ -1,9 +1,9 @@
 ﻿using Avalonia.Data.Converters;
 using Avalonia.Media;
-using Everywhere.Common;
+using AlfredGPT.Common;
 using ZLinq;
 
-namespace Everywhere.ValueConverters;
+namespace AlfredGPT.ValueConverters;
 
 public static class CommonConverters
 {

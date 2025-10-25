@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Everywhere\Everywhere.csproj" />
+      <ProjectReference Include="..\..\src\AlfredGPT\AlfredGPT.csproj" />
     </ItemGroup>
 
 </Project>

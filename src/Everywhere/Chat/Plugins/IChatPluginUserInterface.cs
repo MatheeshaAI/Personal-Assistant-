@@ -1,6 +1,6 @@
-﻿using Everywhere.Chat.Permissions;
+﻿using AlfredGPT.Chat.Permissions;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 public record ChatPluginConsentRequest(
     TaskCompletionSource<ConsentDecision> Promise,

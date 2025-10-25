@@ -1,12 +1,12 @@
 ﻿using System.Text.Json;
-using Everywhere.Common;
-using Everywhere.Initialization;
-using Everywhere.Views.Configuration;
+using AlfredGPT.Common;
+using AlfredGPT.Initialization;
+using AlfredGPT.Views.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WritableJsonConfiguration;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 public static class SettingsExtensions
 {

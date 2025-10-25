@@ -3,7 +3,7 @@ using Avalonia.Controls.Primitives;
 using Avalonia.Data;
 using Avalonia.Xaml.Interactivity;
 
-namespace Everywhere.Behaviors;
+namespace AlfredGPT.Behaviors;
 
 /// <summary>
 /// A behavior that makes a Slider control operate on a logarithmic scale.

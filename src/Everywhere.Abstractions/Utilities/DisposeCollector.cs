@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Everywhere.Utilities;
+namespace AlfredGPT.Utilities;
 
 /// <summary>
 /// A collector for IDisposable objects that can dispose them all at once.

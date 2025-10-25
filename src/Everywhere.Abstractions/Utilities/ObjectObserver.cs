@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text.Json.Serialization;
 using ZLinq;
 
-namespace Everywhere.Utilities;
+namespace AlfredGPT.Utilities;
 
 public readonly record struct ObjectObserverChangedEventArgs(string Path, object? Value);
 

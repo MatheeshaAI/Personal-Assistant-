@@ -4,11 +4,11 @@ using Avalonia.Data;
 using Avalonia.Data.Converters;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.Common;
-using Everywhere.Configuration;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
 using Lucide.Avalonia;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// Allowing users to define and manage their own custom AI assistants.

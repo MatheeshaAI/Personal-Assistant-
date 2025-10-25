@@ -53,16 +53,16 @@
     <ProjectReference Include="..\..\3rd\MessagePack-CSharp\src\MessagePack.SourceGenerator\MessagePack.SourceGenerator.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer"/>
     <ProjectReference Include="..\..\3rd\shad-ui\src\ShadUI\ShadUI.csproj"/>
     <ProjectReference Include="..\..\3rd\WritableJsonConfiguration\src\WritableJsonConfiguration\WritableJsonConfiguration.csproj"/>
-    <ProjectReference Include="..\Everywhere.Abstractions\Everywhere.Abstractions.csproj"/>
-    <ProjectReference Include="..\Everywhere.I18N.SourceGenerator\Everywhere.I18N.SourceGenerator.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer"/>
+    <ProjectReference Include="..\AlfredGPT.Abstractions\AlfredGPT.Abstractions.csproj"/>
+    <ProjectReference Include="..\AlfredGPT.I18N.SourceGenerator\AlfredGPT.I18N.SourceGenerator.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer"/>
   </ItemGroup>
 
   <ItemGroup>
-    <AvaloniaResource Include="..\..\img\Everywhere.png">
-      <Link>Assets\Everywhere.png</Link>
+    <AvaloniaResource Include="..\..\img\AlfredGPT.png">
+      <Link>Assets\AlfredGPT.png</Link>
     </AvaloniaResource>
-    <AvaloniaResource Include="..\..\img\Everywhere.ico">
-      <Link>Assets\Everywhere.ico</Link>
+    <AvaloniaResource Include="..\..\img\AlfredGPT.ico">
+      <Link>Assets\AlfredGPT.ico</Link>
     </AvaloniaResource>
   </ItemGroup>
 

@@ -1,4 +1,4 @@
-﻿namespace Everywhere.AI;
+﻿namespace AlfredGPT.AI;
 
 /// <summary>
 /// Represents a provider template for customizing assistant.
@@ -47,7 +47,7 @@ public record ModelProviderTemplate
 
     /// <summary>
     /// Documentation URL for the model provider, if available.
-    /// This usually points to the Everywhere's user guide or API documentation.
+    /// This usually points to the AlfredGPT's user guide or API documentation.
     /// This URL provides users with detailed information on how to use
     /// the model provider's features and API.
     /// </summary>
@@ -85,7 +85,7 @@ public record ModelProviderTemplate
             DisplayName = "OpenAI",
             Endpoint = "https://api.openai.com/v1",
             OfficialWebsiteUrl = "https://openai.com",
-            IconUrl = "avares://Everywhere/Assets/Icons/openai.svg",
+            IconUrl = "avares://AlfredGPT/Assets/Icons/openai.svg",
             Schema = ModelProviderSchema.OpenAI,
             ModelDefinitions =
             [
@@ -158,7 +158,7 @@ public record ModelProviderTemplate
             DisplayName = "Anthropic (Claude)",
             Endpoint = "https://api.anthropic.com",
             OfficialWebsiteUrl = "https://www.anthropic.com",
-            IconUrl = "avares://Everywhere/Assets/Icons/anthropic.svg",
+            IconUrl = "avares://AlfredGPT/Assets/Icons/anthropic.svg",
             Schema = ModelProviderSchema.Anthropic,
             ModelDefinitions =
             [
@@ -231,7 +231,7 @@ public record ModelProviderTemplate
             DisplayName = "Google (Gemini)",
             OfficialWebsiteUrl = "https://gemini.google.com",
             Endpoint = "https://generativelanguage.googleapis.com/v1beta/openai",
-            IconUrl = "avares://Everywhere/Assets/Icons/google-color.svg",
+            IconUrl = "avares://AlfredGPT/Assets/Icons/google-color.svg",
             Schema = ModelProviderSchema.OpenAI,
             ModelDefinitions =
             [
@@ -347,7 +347,7 @@ public record ModelProviderTemplate
             DisplayName = "DeepSeek",
             Endpoint = "https://api.deepseek.com",
             OfficialWebsiteUrl = "https://www.deepseek.com",
-            IconUrl = "avares://Everywhere/Assets/Icons/deepseek-color.svg",
+            IconUrl = "avares://AlfredGPT/Assets/Icons/deepseek-color.svg",
             Schema = ModelProviderSchema.OpenAI,
             ModelDefinitions =
             [
@@ -380,7 +380,7 @@ public record ModelProviderTemplate
             DisplayName = "Moonshot (Kimi)",
             Endpoint = "https://api.moonshot.cn/v1",
             OfficialWebsiteUrl = "https://www.moonshot.cn",
-            IconUrl = "avares://Everywhere/Assets/Icons/moonshot.svg",
+            IconUrl = "avares://AlfredGPT/Assets/Icons/moonshot.svg",
             Schema = ModelProviderSchema.OpenAI,
             ModelDefinitions =
             [
@@ -423,7 +423,7 @@ public record ModelProviderTemplate
             DisplayName = "OpenRouter",
             OfficialWebsiteUrl = "https://openrouter.ai",
             Endpoint = "https://openrouter.ai/api/v1",
-            IconUrl = "avares://Everywhere/Assets/Icons/openrouter.svg",
+            IconUrl = "avares://AlfredGPT/Assets/Icons/openrouter.svg",
             Schema = ModelProviderSchema.OpenAI,
             ModelDefinitions =
             [
@@ -466,7 +466,7 @@ public record ModelProviderTemplate
             DisplayName = "SiliconCloud (SiliconFlow)",
             OfficialWebsiteUrl = "https://www.siliconflow.cn",
             Endpoint = "https://api.siliconflow.cn/v1",
-            IconUrl = "avares://Everywhere/Assets/Icons/siliconcloud-color.svg",
+            IconUrl = "avares://AlfredGPT/Assets/Icons/siliconcloud-color.svg",
             Schema = ModelProviderSchema.OpenAI,
             ModelDefinitions =
             [
@@ -499,7 +499,7 @@ public record ModelProviderTemplate
             DisplayName = "Ollama",
             OfficialWebsiteUrl = "https://ollama.com",
             Endpoint = "http://127.0.0.1:11434",
-            IconUrl = "avares://Everywhere/Assets/Icons/ollama.svg",
+            IconUrl = "avares://AlfredGPT/Assets/Icons/ollama.svg",
             Schema = ModelProviderSchema.Ollama,
             ModelDefinitions =
             [

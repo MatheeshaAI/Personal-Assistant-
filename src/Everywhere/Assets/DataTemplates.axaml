@@ -1,9 +1,9 @@
 ﻿<ResourceDictionary
   xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:ai="clr-namespace:Everywhere.AI" xmlns:c="clr-namespace:Everywhere.Configuration"
-  xmlns:common="clr-namespace:Everywhere.Common" xmlns:interop="clr-namespace:Everywhere.Interop"
-  xmlns:md="clr-namespace:LiveMarkdown.Avalonia;assembly=LiveMarkdown.Avalonia" xmlns:plugins="clr-namespace:Everywhere.Chat.Plugins"
-  xmlns:v="clr-namespace:Everywhere.Views">
+  xmlns:ai="clr-namespace:AlfredGPT.AI" xmlns:c="clr-namespace:AlfredGPT.Configuration"
+  xmlns:common="clr-namespace:AlfredGPT.Common" xmlns:interop="clr-namespace:AlfredGPT.Interop"
+  xmlns:md="clr-namespace:LiveMarkdown.Avalonia;assembly=LiveMarkdown.Avalonia" xmlns:plugins="clr-namespace:AlfredGPT.Chat.Plugins"
+  xmlns:v="clr-namespace:AlfredGPT.Views">
   <DataTemplate
     x:Key="{x:Type ai:ModelProviderTemplate}"
     x:DataType="ai:ModelProviderTemplate">

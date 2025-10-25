@@ -1,6 +1,6 @@
-﻿using Everywhere.Common;
+﻿using AlfredGPT.Common;
 
-namespace Everywhere.Interop;
+namespace AlfredGPT.Interop;
 
 public enum NativeMessageBoxResult
 {

@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 /// <summary>
 /// Represents the application settings.

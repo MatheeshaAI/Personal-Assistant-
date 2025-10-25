@@ -1,12 +1,12 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using Everywhere.AI;
-using Everywhere.Configuration;
-using Everywhere.Utilities;
+using AlfredGPT.AI;
+using AlfredGPT.Configuration;
+using AlfredGPT.Utilities;
 using Lucide.Avalonia;
 using ObservableCollections;
 using ZLinq;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 public class ChatPluginManager : IChatPluginManager
 {

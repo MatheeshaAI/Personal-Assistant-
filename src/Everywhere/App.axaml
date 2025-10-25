@@ -1,5 +1,5 @@
 <Application
-  x:Class="Everywhere.App" xmlns="https://github.com/avaloniaui"
+  x:Class="AlfredGPT.App" xmlns="https://github.com/avaloniaui"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI">
 
   <Application.Styles>
@@ -11,16 +11,16 @@
     <ResourceDictionary>
       <ResourceDictionary.MergedDictionaries>
         <LocaleManager/>
-        <ResourceInclude Source="avares://Everywhere/Assets/Resources.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Assets/DataTemplates.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Views/Controls/ChatInputBox.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Views/Controls/ChatActionBubble.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Views/Controls/ConsentDecisionCard.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Views/Controls/IconEditor.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Views/Controls/IconPresenter.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Views/Controls/SettingsItemsControl.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Views/Controls/TextDifferenceEditor.axaml"/>
-        <ResourceInclude Source="avares://Everywhere/Views/Controls/TextDifferenceSummaryView.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Assets/Resources.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Assets/DataTemplates.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Views/Controls/ChatInputBox.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Views/Controls/ChatActionBubble.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Views/Controls/ConsentDecisionCard.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Views/Controls/IconEditor.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Views/Controls/IconPresenter.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Views/Controls/SettingsItemsControl.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Views/Controls/TextDifferenceEditor.axaml"/>
+        <ResourceInclude Source="avares://AlfredGPT/Views/Controls/TextDifferenceSummaryView.axaml"/>
       </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
   </Application.Resources>
@@ -28,8 +28,8 @@
   <TrayIcon.Icons>
     <TrayIcons>
       <TrayIcon
-        Clicked="HandleOpenMainWindowMenuItemClicked" Icon="avares://Everywhere/Assets/Everywhere.ico"
-        ToolTipText="Everywhere">
+        Clicked="HandleOpenMainWindowMenuItemClicked" Icon="avares://AlfredGPT/Assets/AlfredGPT.ico"
+        ToolTipText="AlfredGPT">
         <TrayIcon.Menu>
           <NativeMenu>
             <NativeMenuItem

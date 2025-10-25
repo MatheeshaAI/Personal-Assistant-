@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel;
 using EverythingNet.Core;
-using Everywhere.Chat.Plugins;
-using Everywhere.I18N;
-using Everywhere.Interop;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.I18N;
+using AlfredGPT.Interop;
 using Lucide.Avalonia;
 using Microsoft.SemanticKernel;
 
-namespace Everywhere.Windows.Chat.Plugins;
+namespace AlfredGPT.Windows.Chat.Plugins;
 
 /// <summary>
 /// A plugin that integrates with the `Everything` search engine to provide file search capabilities within the chat application.
@@ -16,7 +16,7 @@ public class EverythingPlugin : BuiltInChatPlugin
     public override DynamicResourceKeyBase HeaderKey { get; } = new DynamicResourceKey(LocaleKey.NativeChatPlugin_Everything_Header);
     public override DynamicResourceKeyBase DescriptionKey { get; } = new DynamicResourceKey(LocaleKey.NativeChatPlugin_Everything_Description);
     public override LucideIconKind? Icon => LucideIconKind.Search;
-    public override string BeautifulIcon => "avares://Everywhere.Windows/Assets/Icons/Everything.svg";
+    public override string BeautifulIcon => "avares://AlfredGPT.Windows/Assets/Icons/Everything.svg";
 
     private readonly INativeHelper _nativeHelper;
     private readonly IWatchdogManager _watchdogManager;

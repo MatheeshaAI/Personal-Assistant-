@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Xaml.Interactivity;
 
-namespace Everywhere.Behaviors;
+namespace AlfredGPT.Behaviors;
 
 public enum AutoScrollBehaviorMode
 {

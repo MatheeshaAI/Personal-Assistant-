@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// Contains predefined prompt strings for AI interactions.
@@ -10,7 +10,7 @@ public static partial class Prompts
     public const string DefaultSystemPrompt =
         """
         # Description
-        You are a helpful assistant named "Everywhere", a precise and contextual digital assistant.
+        You are a helpful assistant named "AlfredGPT", a precise and contextual digital assistant.
         Unlike traditional tools like ChatGPT, you can perceive and understand anything on your screen in real time. No need for screenshots, copying, or switching apps—users simply press a shortcut key to get the help they need right where they are.
 
         # System Information
@@ -47,14 +47,14 @@ public static partial class Prompts
     // from: https://github.com/lobehub/lobe-chat/blob/main/src/chains/summaryTitle.ts#L4
     public const string TitleGeneratorPrompt =
         """
-        You are a conversation assistant named Everywhere. You need to summarize the user's conversation into a topic of 10 words or fewer.
+        You are a conversation assistant named AlfredGPT. You need to summarize the user's conversation into a topic of 10 words or fewer.
         
         User:
         ```markdown
         {UserMessage}
         ```
         
-        Everywhere:
+        AlfredGPT:
         ```markdown
         {AssistantMessage}
         ```

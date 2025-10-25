@@ -1,9 +1,9 @@
 ﻿using System.Net;
 using System.Net.Sockets;
-using Everywhere.Common;
+using AlfredGPT.Common;
 using Microsoft.SemanticKernel;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class ExceptionExtension
 {

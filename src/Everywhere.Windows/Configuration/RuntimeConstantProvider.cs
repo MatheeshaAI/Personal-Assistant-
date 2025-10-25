@@ -1,13 +1,13 @@
-﻿using Everywhere.Configuration;
+﻿using AlfredGPT.Configuration;
 
-namespace Everywhere.Windows.Configuration;
+namespace AlfredGPT.Windows.Configuration;
 
 public class RuntimeConstantProvider : IRuntimeConstantProvider
 {
     public object? this[RuntimeConstantType type] => type switch
     {
         RuntimeConstantType.WritableDataPath => EnsureDirectory(
-            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Everywhere")),
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "AlfredGPT")),
         _ => null
     };
 

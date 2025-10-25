@@ -1,16 +1,16 @@
 ﻿<UserControl
-  x:Class="Everywhere.Views.Pages.AboutPage" xmlns="https://github.com/avaloniaui"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:vm="clr-namespace:Everywhere.ViewModels"
+  x:Class="AlfredGPT.Views.Pages.AboutPage" xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:vm="clr-namespace:AlfredGPT.ViewModels"
   x:DataType="vm:AboutPageViewModel">
   <StackPanel
     HorizontalAlignment="Center" VerticalAlignment="Center"
     Spacing="8">
     <Image
       Width="128" Height="128"
-      HorizontalAlignment="Center" Source="avares://Everywhere/Assets/Everywhere.png"/>
+      HorizontalAlignment="Center" Source="avares://AlfredGPT/Assets/AlfredGPT.png"/>
     <TextBlock
       Classes="h2" HorizontalAlignment="Center"
-      Text="Everywhere"/>
+      Text="AlfredGPT"/>
     <TextBlock
       Width="512" HorizontalAlignment="Center"
       Text="{I18N {x:Static LocaleKey.AboutPage_Description}}"
@@ -37,12 +37,12 @@
       <HyperlinkButton
         VerticalAlignment="Center"
         Content="{I18N {x:Static LocaleKey.AboutPage_GithubRepo}}"
-        NavigateUri="https://github.com/DearVa/Everywhere"
+        NavigateUri="https://github.com/DearVa/AlfredGPT"
         TextElement.Foreground="{DynamicResource InfoColor}"/>
       <HyperlinkButton
         VerticalAlignment="Center"
         Content="{I18N {x:Static LocaleKey.AboutPage_OpenSourceLicenses}}"
-        NavigateUri="https://github.com/DearVa/Everywhere/blob/main/ThirdPartyNotices.txt"
+        NavigateUri="https://github.com/DearVa/AlfredGPT/blob/main/ThirdPartyNotices.txt"
         TextElement.Foreground="{DynamicResource InfoColor}"/>
     </StackPanel>
   </StackPanel>

@@ -1,5 +1,5 @@
 ﻿#if !DEBUG
-using Everywhere.Interop;
+using AlfredGPT.Interop;
 #else
 #define DISABLE_TELEMETRY
 #endif
@@ -14,7 +14,7 @@ using Serilog.Events;
 using Serilog.Formatting.Json;
 using ZLinq;
 
-namespace Everywhere.Common;
+namespace AlfredGPT.Common;
 
 public static class Entrance
 {
@@ -61,7 +61,7 @@ public static class Entrance
             {
                 NativeMessageBox.Show(
                     "Info",
-                    "Everywhere is already running. Please check your system tray for the application window.",
+                    "AlfredGPT is already running. Please check your system tray for the application window.",
                     NativeMessageBoxButtons.Ok,
                     NativeMessageBoxIcon.Information);
             }
@@ -107,7 +107,7 @@ public static class Entrance
         });
 
         var traceProvider = Sdk.CreateTracerProviderBuilder()
-            .AddSource("Everywhere.*")
+            .AddSource("AlfredGPT.*")
             .AddSentry()
             .Build();
 
@@ -120,7 +120,7 @@ public static class Entrance
 
     private static void InitializeLogger()
     {
-        var dataPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Everywhere");
+        var dataPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "AlfredGPT");
 
         Log.Logger = new LoggerConfiguration()
             .Enrich.FromLogContext()
@@ -135,7 +135,7 @@ public static class Entrance
             .WriteTo.Logger(lc => lc
                 .Filter.ByIncludingOnly(logEvent =>
                     logEvent.Properties.TryGetValue("SourceContext", out var sourceContextValue) &&
-                    sourceContextValue.As<ScalarValue>()?.Value?.ToString()?.StartsWith("Everywhere.") is true)
+                    sourceContextValue.As<ScalarValue>()?.Value?.ToString()?.StartsWith("AlfredGPT.") is true)
                 .WriteTo.Sentry(LogEventLevel.Error, LogEventLevel.Information))
 #endif
             .CreateLogger();

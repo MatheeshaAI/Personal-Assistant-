@@ -11,10 +11,10 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Platform;
 using Avalonia.Threading;
-using Everywhere.Common;
-using Everywhere.Extensions;
-using Everywhere.I18N;
-using Everywhere.Interop;
+using AlfredGPT.Common;
+using AlfredGPT.Extensions;
+using AlfredGPT.I18N;
+using AlfredGPT.Interop;
 using FlaUI.Core;
 using FlaUI.Core.AutomationElements;
 using FlaUI.Core.Definitions;
@@ -30,7 +30,7 @@ using Size = System.Drawing.Size;
 using Vector = Avalonia.Vector;
 using WindowState = Avalonia.Controls.WindowState;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 public partial class Win32VisualElementContext : IVisualElementContext
 {

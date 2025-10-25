@@ -7,15 +7,15 @@ using Avalonia.Layout;
 using Avalonia.Platform.Storage;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.Input;
-using Everywhere.Chat;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Interop;
+using AlfredGPT.Chat;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Interop;
 using LiveMarkdown.Avalonia;
 using Microsoft.Extensions.Logging;
 using ShadUI;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public partial class ChatWindow : ReactiveShadWindow<ChatWindowViewModel>, IReactiveHost
 {

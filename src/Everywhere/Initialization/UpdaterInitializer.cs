@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Utilities;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Utilities;
 
-namespace Everywhere.Initialization;
+namespace AlfredGPT.Initialization;
 
 /// <summary>
 /// Initializes the software updater by subscribing to settings changes and starting the automatic update check.

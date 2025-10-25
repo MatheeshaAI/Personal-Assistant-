@@ -2,7 +2,7 @@
 using MessagePack.Formatters;
 using Microsoft.SemanticKernel.ChatCompletion;
 
-namespace Everywhere.Serialization;
+namespace AlfredGPT.Serialization;
 
 public class AuthorRoleMessagePackFormatter : IMessagePackFormatter<AuthorRole>
 {

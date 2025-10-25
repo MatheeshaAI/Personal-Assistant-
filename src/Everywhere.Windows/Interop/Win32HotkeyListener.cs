@@ -3,10 +3,10 @@ using Windows.Win32.Foundation;
 using Windows.Win32.UI.Input.KeyboardAndMouse;
 using Windows.Win32.UI.WindowsAndMessaging;
 using Avalonia.Input;
-using Everywhere.Interop;
-using Everywhere.Windows.Extensions;
+using AlfredGPT.Interop;
+using AlfredGPT.Windows.Extensions;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 public unsafe class Win32HotkeyListener : IHotkeyListener
 {

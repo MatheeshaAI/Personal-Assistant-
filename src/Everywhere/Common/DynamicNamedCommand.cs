@@ -1,7 +1,7 @@
 ﻿using System.Windows.Input;
 using Lucide.Avalonia;
 
-namespace Everywhere.Common;
+namespace AlfredGPT.Common;
 
 public record DynamicNamedCommand(
     LucideIconKind Icon,

@@ -6,7 +6,7 @@ using MessagePack;
 using ObservableCollections;
 using ZLinq;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 public enum TextChangeKind
 {

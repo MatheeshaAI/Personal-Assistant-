@@ -1,4 +1,4 @@
-## [v0.3.12](https://github.com/DearVa/Everywhere/releases/tag/v0.3.12) - 2025-10-16
+## [v0.3.12](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.12) - 2025-10-16
 
 ### 🚀 Improvements
 - Removed the obsolete Bing web search engine
@@ -11,14 +11,14 @@
 - Fixed an issue where variables in the system prompt were not rendered
 - Fixed an issue where the chat topic summary was sometimes empty (Note: This is not fully resolved, as some models may still produce empty results)
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.11...v0.3.12
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.11...v0.3.12
 
 
 
-## [v0.3.11](https://github.com/DearVa/Everywhere/releases/tag/v0.3.11) - 2025-10-16
+## [v0.3.11](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.11) - 2025-10-16
 
 ### ⚠️ Breaking Changes ⚠️
-Due to the model configuration page being rebuilt, previously configured model settings (including API keys, etc.) will be lost! However, they still exist in the software settings file. Advanced users can find them at `C:\Users\<username>\AppData\Roaming\Everywhere\settings.json`.
+Due to the model configuration page being rebuilt, previously configured model settings (including API keys, etc.) will be lost! However, they still exist in the software settings file. Advanced users can find them at `C:\Users\<username>\AppData\Roaming\AlfredGPT\settings.json`.
 
 ### ✨ Features
 - 🎉 Added custom assistants! You can now create multiple assistants with different icons, names, and prompts, and switch between them freely during a chat
@@ -27,11 +27,11 @@ Due to the model configuration page being rebuilt, previously configured model s
 ### 🚀 Improvements
 - Optimized exception handling
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.10...v0.3.11
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.10...v0.3.11
 
 
 
-## [v0.3.10](https://github.com/DearVa/Everywhere/releases/tag/v0.3.10) - 2025-10-14
+## [v0.3.10](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.10) - 2025-10-14
 
 ### 🚀 Improvements
 - Introduced a new, modern installer that remembers the previous installation location during updates
@@ -43,11 +43,11 @@ Due to the model configuration page being rebuilt, previously configured model s
 - Fixed an issue causing an HTTP 400 error during function calls
 - Fixed an issue where requests could be blocked by Cloudflare from some third-party model providers
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.9...v0.3.10
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.9...v0.3.10
 
 
 
-## [v0.3.9](https://github.com/DearVa/Everywhere/releases/tag/v0.3.9) - 2025-10-13
+## [v0.3.9](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.9) - 2025-10-13
 
 ### ✨ Features
 - Provider icons in settings are now loaded as local resources for faster display
@@ -61,11 +61,11 @@ Due to the model configuration page being rebuilt, previously configured model s
 - Fixed dialog covering the title bar, making the window undraggable or unresponsive
 - Fixed some prompt tasks (e.g. translation) may use the wrong target language
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.8...v0.3.9
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.8...v0.3.9
 
 
 
-## [v0.3.8](https://github.com/DearVa/Everywhere/releases/tag/v0.3.8) - 2025-10-11
+## [v0.3.8](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.8) - 2025-10-11
 
 ### ✨ Features
 - Software updates can now be cancelled by dismissing the toast notification
@@ -84,20 +84,20 @@ Due to the model configuration page being rebuilt, previously configured model s
 - Fixed unnecessary telemetry logging
 - Corrected a typo for an Ollama model: deepseek R1 8B -> deepseek R1 7B
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.7...v0.3.8
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.7...v0.3.8
 
 
 
-## [v0.3.7](https://github.com/DearVa/Everywhere/releases/tag/v0.3.7) - 2025-10-11
+## [v0.3.7](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.7) - 2025-10-11
 
 ### 🐞 Fixed
 - Fixed error messages were incorrectly parsed as "unknown".
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.6...v0.3.7
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.6...v0.3.7
 
 
 
-## [v0.3.6](https://github.com/DearVa/Everywhere/releases/tag/v0.3.6) - 2025-10-10
+## [v0.3.6](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.6) - 2025-10-10
 
 ### ✨ New Features
 - Added chat statistics in the chat window, which can be toggled in settings.
@@ -116,22 +116,22 @@ Due to the model configuration page being rebuilt, previously configured model s
 - Fixed an issue where the chat window could not be reopened after being closed while a message was being streamed.
 - Fixed an issue where the `Shift` and `Win` keys could become unresponsive if a hotkey included the `Win` key. You can now set the Copilot key as a hotkey normally.
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.5...v0.3.6
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.5...v0.3.6
 
 
 
-## [v0.3.5](https://github.com/DearVa/Everywhere/releases/tag/v0.3.5) - 2025-10-09
+## [v0.3.5](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.5) - 2025-10-09
 
 ### 🐞 Fixed
-- Fixed hotkey input box crashes when clicking twice [#20](https://github.com/DearVa/Everywhere/issues/20)
+- Fixed hotkey input box crashes when clicking twice [#20](https://github.com/DearVa/AlfredGPT/issues/20)
 - Fixed potential null pointer error when sending message
 - Fixed wrong telemetry log level
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.4...v0.3.5
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.4...v0.3.5
 
 
 
-## [v0.3.4](https://github.com/DearVa/Everywhere/releases/tag/v0.3.4) - 2025-10-09
+## [v0.3.4](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.4) - 2025-10-09
 
 ### 🔄️ Changed
 - Improved user prompt for tool usage
@@ -145,14 +145,14 @@ Due to the model configuration page being rebuilt, previously configured model s
 - Fixed custom model not saved or applied
 - Fixed visual tree plugin is not disabled correctly
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.3...v0.3.4
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.3...v0.3.4
 
 
 
-## [v0.3.3](https://github.com/DearVa/Everywhere/releases/tag/v0.3.3) - 2025-10-08
+## [v0.3.3](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.3) - 2025-10-08
 
 ### ✨ New Features
-- Added telemetry to help us improve. See [Data and Privacy](https://github.com/DearVa/Everywhere/blob/main/DATA_AND_PRIVACY.md)
+- Added telemetry to help us improve. See [Data and Privacy](https://github.com/DearVa/AlfredGPT/blob/main/DATA_AND_PRIVACY.md)
 - Unsent messages will be saved automatically
 
 ### 🔄️ Changed
@@ -161,32 +161,32 @@ Due to the model configuration page being rebuilt, previously configured model s
 ### 🐞 Fixed
 - Fixed update message in settings page may disappear when fetching new version
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.2...v0.3.3
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.2...v0.3.3
 
 
 
-## [v0.3.2](https://github.com/DearVa/Everywhere/releases/tag/v0.3.2) - 2025-10-05
+## [v0.3.2](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.2) - 2025-10-05
 
 ### 🐞 Fixed
 - Fixed chat input box watermark behavior error
 - (Windows) Fixed powershell plugin missing modules
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.1...v0.3.2
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.1...v0.3.2
 
 
 
-## [v0.3.1](https://github.com/DearVa/Everywhere/releases/tag/v0.3.1) - 2025-10-04
+## [v0.3.1](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.1) - 2025-10-04
 
 ### 🔄️ Changed
 - Improved markdown rendering styles
 - Improved OOBE experience
 - Changed official website link to https://everywhere.sylinko.com/
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.3.0...v0.3.1
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.3.0...v0.3.1
 
 
 
-## [v0.3.0](https://github.com/DearVa/Everywhere/releases/tag/v0.3.0) - 2025-09-24
+## [v0.3.0](https://github.com/DearVa/AlfredGPT/releases/tag/v0.3.0) - 2025-09-24
 
 ### ✨ New Features
 - 🎉 New Icon
@@ -226,11 +226,11 @@ Due to the model configuration page being rebuilt, previously configured model s
 - Chat messages may disappear when selecting text
 - Chat window may flicker when pinned
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.2.4...v0.3.0
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.2.4...v0.3.0
 
 
 
-## [v0.2.4](https://github.com/DearVa/Everywhere/releases/tag/v0.2.4) - 2025-08-15
+## [v0.2.4](https://github.com/DearVa/AlfredGPT/releases/tag/v0.2.4) - 2025-08-15
 
 ### ✨ New Features
 - Added Change Log in Welcome Dialog
@@ -245,11 +245,11 @@ Due to the model configuration page being rebuilt, previously configured model s
 - Fixed `ChatElementAttachment`'s overlay window may cover the `ChatWindow`
 - Fixed `ChatElementAttachment`'s overlay window may not disappear
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.2.3...v0.2.4
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.2.3...v0.2.4
 
 
 
-## [v0.2.3](https://github.com/DearVa/Everywhere/releases/tag/v0.2.3) - 2025-08-14
+## [v0.2.3](https://github.com/DearVa/AlfredGPT/releases/tag/v0.2.3) - 2025-08-14
 
 ### ✨ New Features
 - Added settings for automatically startup
@@ -258,11 +258,11 @@ Due to the model configuration page being rebuilt, previously configured model s
 ### 🐞 Fixed
 - Fixed markdown rendering issues in the Chat Window
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.2.2...v0.2.3
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.2.2...v0.2.3
 
 
 
-## [v0.2.2](https://github.com/DearVa/Everywhere/releases/tag/v0.2.2) - 2025-08-11
+## [v0.2.2](https://github.com/DearVa/AlfredGPT/releases/tag/v0.2.2) - 2025-08-11
 
 ### ✨ New Features
 - **Model Support**: Added support for `Claude Opus 4.1`
@@ -270,11 +270,11 @@ Due to the model configuration page being rebuilt, previously configured model s
 ### 🔄️ Changed
 - Split settings into separate sidebar items
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.2.1...v0.2.2
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.2.1...v0.2.2
 
 
 
-## [v0.2.1](https://github.com/DearVa/Everywhere/releases/tag/v0.2.1) - 2025-08-11
+## [v0.2.1](https://github.com/DearVa/AlfredGPT/releases/tag/v0.2.1) - 2025-08-11
 
 ### ✨ New Features
 - **Model Support**: Added support for `GPT-5` series models:
@@ -285,11 +285,11 @@ Due to the model configuration page being rebuilt, previously configured model s
 ### 🐞 Fixed
 - Fixed markdown rendering issues in the Chat Window
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.2.0...v0.2.1
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.2.0...v0.2.1
 
 
 
-## [v0.2.0](https://github.com/DearVa/Everywhere/releases/tag/v0.2.0) - 2025-08-10
+## [v0.2.0](https://github.com/DearVa/AlfredGPT/releases/tag/v0.2.0) - 2025-08-10
 
 This update introduces support for over 20 new models and a completely refactored settings page for a better user experience.
 
@@ -312,11 +312,11 @@ To improve performance and stability, the chat database has been refactored.
 - **As this is a beta release, chat history from previous versions is no longer available.**
 - The new database structure now supports data migrations, which will prevent data loss in future updates. We appreciate your understanding.
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.1.3...v0.2.0
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.1.3...v0.2.0
 
 
 
-## [v0.1.3](https://github.com/DearVa/Everywhere/releases/tag/v0.1.3) - 2025-08-08
+## [v0.1.3](https://github.com/DearVa/AlfredGPT/releases/tag/v0.1.3) - 2025-08-08
 
 ### ✨ New Features
 - Added a pin button to the Chat Window, to keep it always on top and not close on lost focus
@@ -326,11 +326,11 @@ To improve performance and stability, the chat database has been refactored.
 ### 🐞 Fixed
 - Fixed ChatInputBox max height
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.1.2...v0.1.3
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.1.2...v0.1.3
 
 
 
-## [v0.1.2](https://github.com/DearVa/Everywhere/releases/tag/v0.1.2) - 2025-08-02
+## [v0.1.2](https://github.com/DearVa/AlfredGPT/releases/tag/v0.1.2) - 2025-08-02
 
 ### ✨ New Features
 - Added a notification when the app is first hide to the system tray
@@ -344,11 +344,11 @@ To improve performance and stability, the chat database has been refactored.
 ### ⚠️ Known Issues
 - The opacity of tray icon menu is broken
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.1.1...v0.1.2
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.1.1...v0.1.2
 
 
 
-## [v0.1.1](https://github.com/DearVa/Everywhere/releases/tag/v0.1.1) - 2025-07-31
+## [v0.1.1](https://github.com/DearVa/AlfredGPT/releases/tag/v0.1.1) - 2025-07-31
 
 ### ✨ New Features
 - Added Logging
@@ -359,10 +359,10 @@ To improve performance and stability, the chat database has been refactored.
 ### 🐞 Fixed
 - Fixed I18N not working when Language is not set
 
-**Full Changelog**: https://github.com/DearVa/Everywhere/compare/v0.1.0...v0.1.1
+**Full Changelog**: https://github.com/DearVa/AlfredGPT/compare/v0.1.0...v0.1.1
 
 
 
-## [v0.1.0](https://github.com/DearVa/Everywhere/releases/tag/v0.1.0) - 2025-07-31
+## [v0.1.0](https://github.com/DearVa/AlfredGPT/releases/tag/v0.1.0) - 2025-07-31
 
 ### First Release · 万物生于有，有生于无。

@@ -1,15 +1,15 @@
 ﻿using System.Security.Cryptography;
 using Avalonia.Media.Imaging;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Common;
-using Everywhere.Interop;
-using Everywhere.Storage;
-using Everywhere.Utilities;
+using AlfredGPT.Common;
+using AlfredGPT.Interop;
+using AlfredGPT.Storage;
+using AlfredGPT.Utilities;
 using Lucide.Avalonia;
 using MessagePack;
 using Serilog;
 
-namespace Everywhere.Chat;
+namespace AlfredGPT.Chat;
 
 [MessagePackObject(AllowPrivate = true, OnlyIncludeKeyedMembers = true)]
 [Union(0, typeof(ChatVisualElementAttachment))]

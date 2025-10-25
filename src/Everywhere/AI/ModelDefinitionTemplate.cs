@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
-using Everywhere.Configuration;
+using AlfredGPT.Configuration;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// Defines the properties of an AI model.

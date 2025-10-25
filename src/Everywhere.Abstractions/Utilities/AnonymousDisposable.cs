@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Everywhere.Utilities;
+namespace AlfredGPT.Utilities;
 
 public class AnonymousDisposable(Action disposeAction) : IDisposable
 {

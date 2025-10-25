@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
 using Avalonia.Controls;
-using Everywhere.Configuration;
+using AlfredGPT.Configuration;
 using Lucide.Avalonia;
 
-namespace Everywhere.Views.Pages;
+namespace AlfredGPT.Views.Pages;
 
 /// <summary>
 /// Represents a settings category page that displays a list of settings items.

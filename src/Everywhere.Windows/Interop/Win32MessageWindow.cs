@@ -1,9 +1,9 @@
 ﻿using Windows.Win32;
 using Windows.Win32.Foundation;
 using Windows.Win32.UI.WindowsAndMessaging;
-using Everywhere.Extensions;
+using AlfredGPT.Extensions;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 // Shared message-only window host on a dedicated STA thread.
 // Consumers can add message handlers and reuse HWND for OS APIs (e.g., RegisterHotKey, AddClipboardFormatListener).
@@ -23,7 +23,7 @@ internal sealed class Win32MessageWindow
         var thread = new Thread(WindowLoop)
         {
             IsBackground = true,
-            Name = "Everywhere.MessageWindow",
+            Name = "AlfredGPT.MessageWindow",
         };
         thread.SetApartmentState(ApartmentState.STA);
         thread.Start();
@@ -63,7 +63,7 @@ internal sealed class Win32MessageWindow
         HWnd = PInvoke.CreateWindowEx(
             0,
             "STATIC",
-            "Everywhere.MessageWindow",
+            "AlfredGPT.MessageWindow",
             0,
             0, 0, 0, 0,
             new HWND(-3), // HWND_MESSAGE

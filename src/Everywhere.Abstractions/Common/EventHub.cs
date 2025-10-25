@@ -1,6 +1,6 @@
-﻿using Everywhere.Utilities;
+﻿using AlfredGPT.Utilities;
 
-namespace Everywhere.Common;
+namespace AlfredGPT.Common;
 
 /// <summary>
 /// An interface for event subscribers. Used by <see cref="EventHub{TEvent}"/>

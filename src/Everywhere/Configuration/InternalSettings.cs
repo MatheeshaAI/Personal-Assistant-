@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 public partial class InternalSettings : SettingsCategory
 {

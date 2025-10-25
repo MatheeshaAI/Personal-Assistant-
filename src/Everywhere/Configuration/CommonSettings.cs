@@ -1,13 +1,13 @@
 ﻿using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Common;
-using Everywhere.Interop;
-using Everywhere.Views.Configuration;
+using AlfredGPT.Common;
+using AlfredGPT.Interop;
+using AlfredGPT.Views.Configuration;
 using Lucide.Avalonia;
 using Microsoft.Extensions.Logging;
 using ShadUI;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 public partial class CommonSettings : SettingsCategory
 {

@@ -5,17 +5,17 @@ using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media.Imaging;
 using Avalonia.Threading;
-using Everywhere.Chat.Plugins;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Interop;
-using Everywhere.Views;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Interop;
+using AlfredGPT.Views;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using ShadUI;
 using Window = Avalonia.Controls.Window;
 
-namespace Everywhere;
+namespace AlfredGPT;
 
 public class App : Application
 {
@@ -36,7 +36,7 @@ public class App : Application
             using ChatMessage = Microsoft.Extensions.AI.ChatMessage;
             using TextContent = Microsoft.Extensions.AI.TextContent;
 
-            namespace Everywhere.AI;
+            namespace AlfredGPT.AI;
             public sealed class OpenAIKernelMixin : KernelMixinBase
                 {
                     ChatCompletionService = new OptimizedOpenAIApiClient(
@@ -64,7 +64,7 @@ public class App : Application
             using FunctionCallContent = Microsoft.Extensions.AI.FunctionCallContent;
             using TextContent = Microsoft.Extensions.AI.TextContent;
 
-            namespace Everywhere.AI;
+            namespace AlfredGPT.AI;
             public sealed class OpenAIKernelMixin : KernelMixinBase
                 {
                     ChatCompletionService = new OptimizedOpenAIApiClient(

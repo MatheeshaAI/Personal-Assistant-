@@ -1,7 +1,7 @@
 ﻿using Avalonia.Data.Converters;
 using ObservableCollections;
 
-namespace Everywhere.ValueConverters;
+namespace AlfredGPT.ValueConverters;
 
 public static class ObservableListConverters
 {

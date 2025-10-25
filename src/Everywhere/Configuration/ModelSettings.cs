@@ -1,10 +1,10 @@
 ﻿using System.Collections.ObjectModel;
 using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.AI;
+using AlfredGPT.AI;
 using Lucide.Avalonia;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 public partial class ModelSettings : SettingsCategory
 {

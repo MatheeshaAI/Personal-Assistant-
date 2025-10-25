@@ -1,6 +1,6 @@
-﻿using Everywhere.Common;
+﻿using AlfredGPT.Common;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class TaskExtension
 {

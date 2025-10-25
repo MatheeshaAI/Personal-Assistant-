@@ -1,9 +1,9 @@
 ﻿using System.Runtime.Serialization;
 using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Configuration;
+using AlfredGPT.Configuration;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 public partial class WebSearchEngineProvider : ObservableObject
 {

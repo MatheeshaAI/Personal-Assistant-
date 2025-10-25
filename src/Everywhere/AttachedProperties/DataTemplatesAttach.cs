@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 
-namespace Everywhere.AttachedProperties;
+namespace AlfredGPT.AttachedProperties;
 
 /// <summary>
 /// <see cref="Control.DataTemplates"/> says they are 'Gets or sets'.

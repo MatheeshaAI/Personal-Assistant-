@@ -1,6 +1,6 @@
 ﻿using Avalonia.Controls;
 
-namespace Everywhere.Interop;
+namespace AlfredGPT.Interop;
 
 /// <summary>
 /// Provides helper methods for interacting with application windows.

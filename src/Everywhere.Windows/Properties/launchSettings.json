@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Everywhere.Windows": {
+    "AlfredGPT.Windows": {
       "commandName": "Project",
       "nativeDebugging": true
     }

@@ -1,15 +1,15 @@
-# Everywhere Data & Privacy Policy
+# AlfredGPT Data & Privacy Policy
 
 **Last updated:** October 2025
 
 ## Overview
-Everywhere is an open-source application — all telemetry code is public and auditable.
+AlfredGPT is an open-source application — all telemetry code is public and auditable.
 
-Everywhere (“we”, “our”, or “us”) is committed to protecting your privacy.  
+AlfredGPT (“we”, “our”, or “us”) is committed to protecting your privacy.  
 This Data & Privacy Policy explains how we collect, use, and safeguard information when you use our application (“App”).  
 By using the App, you agree to the terms of this policy.
 
-Everywhere diagnostic and telemetry data is **completely anonymous** and **never includes personal information or chat content**.  
+AlfredGPT diagnostic and telemetry data is **completely anonymous** and **never includes personal information or chat content**.  
 We do not collect, store, or share any of your chat messages, files, API keys, email addresses, IP addresses, or any other personal identifiers.
 
 Additionally, this document outlines how we handle data related to third-party services integrated into the App.

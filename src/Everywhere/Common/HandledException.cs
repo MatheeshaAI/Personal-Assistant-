@@ -9,7 +9,7 @@ using Google;
 using Microsoft.SemanticKernel;
 using OllamaSharp.Models.Exceptions;
 
-namespace Everywhere.Common;
+namespace AlfredGPT.Common;
 
 /// <summary>
 /// Represents errors that occur during application operations.

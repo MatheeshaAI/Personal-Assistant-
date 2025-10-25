@@ -1,4 +1,4 @@
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 /// <summary>
 /// Represents the criteria by which files can be ordered.

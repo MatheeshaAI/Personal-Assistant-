@@ -1,10 +1,10 @@
 ﻿using CommunityToolkit.Mvvm.Input;
-using Everywhere.Common;
-using Everywhere.Views;
-using Everywhere.Views.Pages;
+using AlfredGPT.Common;
+using AlfredGPT.Views;
+using AlfredGPT.Views.Pages;
 using ShadUI;
 
-namespace Everywhere.ViewModels;
+namespace AlfredGPT.ViewModels;
 
 public partial class AboutPageViewModel : ReactiveViewModelBase
 {

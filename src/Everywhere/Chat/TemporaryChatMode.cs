@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Chat;
+﻿namespace AlfredGPT.Chat;
 
 /// <summary>
 /// Specifies the mode for temporary chat contexts.

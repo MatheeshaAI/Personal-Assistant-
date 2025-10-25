@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Views;
+﻿namespace AlfredGPT.Views;
 
 public partial class WelcomeView : ReactiveUserControl<WelcomeViewModel>
 {

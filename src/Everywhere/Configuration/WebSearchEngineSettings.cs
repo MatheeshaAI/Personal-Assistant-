@@ -1,9 +1,9 @@
 ﻿using System.Collections.ObjectModel;
 using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Chat.Plugins;
+using AlfredGPT.Chat.Plugins;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 public partial class WebSearchEngineSettings : SettingsCategory
 {

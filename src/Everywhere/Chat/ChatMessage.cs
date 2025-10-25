@@ -6,8 +6,8 @@ using System.Text.Json.Serialization;
 using Avalonia.Controls.Documents;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Chat.Plugins;
-using Everywhere.Serialization;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.Serialization;
 using LiveMarkdown.Avalonia;
 using Lucide.Avalonia;
 using MessagePack;
@@ -16,7 +16,7 @@ using Microsoft.SemanticKernel.ChatCompletion;
 using ObservableCollections;
 using ZLinq;
 
-namespace Everywhere.Chat;
+namespace AlfredGPT.Chat;
 
 [MessagePackObject(OnlyIncludeKeyedMembers = true)]
 [Union(0, typeof(SystemChatMessage))]

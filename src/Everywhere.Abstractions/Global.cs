@@ -5,4 +5,4 @@ global using System.Threading;
 global using System.Threading.Tasks;
 global using System.Runtime.CompilerServices;
 global using System.Runtime.InteropServices;
-global using Everywhere.Extensions;
+global using AlfredGPT.Extensions;

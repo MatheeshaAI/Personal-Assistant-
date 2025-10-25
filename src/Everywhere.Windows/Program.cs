@@ -1,23 +1,23 @@
 ﻿using Avalonia;
 using Avalonia.Controls;
-using Everywhere.AI;
-using Everywhere.Chat;
-using Everywhere.Chat.Plugins;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Extensions;
-using Everywhere.Initialization;
-using Everywhere.Interop;
-using Everywhere.Windows.Chat.Plugins;
-using Everywhere.Windows.Configuration;
-using Everywhere.Windows.Interop;
+using AlfredGPT.AI;
+using AlfredGPT.Chat;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Extensions;
+using AlfredGPT.Initialization;
+using AlfredGPT.Interop;
+using AlfredGPT.Windows.Chat.Plugins;
+using AlfredGPT.Windows.Configuration;
+using AlfredGPT.Windows.Interop;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Extensions.Logging;
-using SoftwareUpdater = Everywhere.Windows.Common.SoftwareUpdater;
+using SoftwareUpdater = AlfredGPT.Windows.Common.SoftwareUpdater;
 
-namespace Everywhere.Windows;
+namespace AlfredGPT.Windows;
 
 public static class Program
 {

@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using Avalonia.Data.Converters;
 
-namespace Everywhere.ValueConverters;
+namespace AlfredGPT.ValueConverters;
 
 public class BidirectionalFuncValueConverter<TInput, TOutput>(Func<TInput, object?, TOutput> convert, Func<TOutput, object?, TInput> convertBack)
     : IValueConverter

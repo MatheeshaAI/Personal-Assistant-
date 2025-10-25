@@ -13,7 +13,7 @@ using ChatMessage = Microsoft.Extensions.AI.ChatMessage;
 using FunctionCallContent = Microsoft.Extensions.AI.FunctionCallContent;
 using TextContent = Microsoft.Extensions.AI.TextContent;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// An implementation of <see cref="IKernelMixin"/> for OpenAI models.
@@ -77,7 +77,7 @@ public sealed class OpenAIKernelMixin : KernelMixinBase
         {
             options?.SetHeader(
                 "UserAgent",
-                $"Everywhere/{typeof(OpenAIKernelMixin).Assembly.GetName().Version?.ToString() ?? "1.0.0"} " +
+                $"AlfredGPT/{typeof(OpenAIKernelMixin).Assembly.GetName().Version?.ToString() ?? "1.0.0"} " +
 #if IsWindows
                 "(Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
 #elif IsOSX

@@ -1,7 +1,7 @@
-﻿using Everywhere.Chat;
-using Everywhere.Database;
+﻿using AlfredGPT.Chat;
+using AlfredGPT.Database;
 
-namespace Everywhere.Storage;
+namespace AlfredGPT.Storage;
 
 /// <summary>
 /// Abstraction for chat database operations used by the application.

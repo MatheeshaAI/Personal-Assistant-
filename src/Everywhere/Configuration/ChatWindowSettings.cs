@@ -1,10 +1,10 @@
 ﻿using Avalonia.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Chat;
-using Everywhere.Interop;
+using AlfredGPT.Chat;
+using AlfredGPT.Interop;
 using Lucide.Avalonia;
 
-namespace Everywhere.Configuration;
+namespace AlfredGPT.Configuration;
 
 public partial class ChatWindowSettings : SettingsCategory
 {

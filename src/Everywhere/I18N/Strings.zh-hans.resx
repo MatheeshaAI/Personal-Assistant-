@@ -90,7 +90,7 @@
         <value>如果你不确定这是什么，请保持默认值。必须以“http(s)://”开头。</value>
     </data>
     <data name="ChatInputBox_Watermark" xml:space="preserve">
-        <value>向 Everywhere 提问，或是随便聊聊</value>
+        <value>向 AlfredGPT 提问，或是随便聊聊</value>
     </data>
     <data name="ChatInputBox_AddAttachmentMenuItem_ToolTip" xml:space="preserve">
         <value>添加附件到当前会话</value>
@@ -408,13 +408,13 @@
         <value>开放源代码许可</value>
     </data>
     <data name="App_EverywhereIsAlreadyRunning" xml:space="preserve">
-        <value>Everywhere 已在运行，请检查托盘图标。</value>
+        <value>AlfredGPT 已在运行，请检查托盘图标。</value>
     </data>
     <data name="Common_Info" xml:space="preserve">
         <value>提示</value>
     </data>
     <data name="MainView_EverywhereHasMinimizedToTray" xml:space="preserve">
-        <value>Everywhere 已最小化到托盘</value>
+        <value>AlfredGPT 已最小化到托盘</value>
     </data>
     <data name="ChatWindow_HistoryAction_Rename" xml:space="preserve">
         <value>重命名</value>
@@ -432,7 +432,7 @@
         <value>官方文档</value>
     </data>
     <data name="WelcomeView_IntroStep_Message1" xml:space="preserve">
-        <value>👋 欢迎来到 Everywhere</value>
+        <value>👋 欢迎来到 AlfredGPT</value>
     </data>
     <data name="WelcomeView_IntroStep_Message2" xml:space="preserve">
         <value>很高兴认识你！就让我做你的助手，陪伴你解决问题吧！</value>
@@ -444,10 +444,10 @@
         <value>功能请求</value>
     </data>
     <data name="ChangeLogView_ReportBugHyperlinkButton_NavigateUri" xml:space="preserve">
-        <value>https://github.com/DearVa/Everywhere/issues/new?template=bug-report-zh.yml</value>
+        <value>https://github.com/DearVa/AlfredGPT/issues/new?template=bug-report-zh.yml</value>
     </data>
     <data name="ChangeLogView_FeatureRequestHyperlinkButton_NavigateUri" xml:space="preserve">
-        <value>https://github.com/DearVa/Everywhere/issues/new?template=feature-request-zh.yml</value>
+        <value>https://github.com/DearVa/AlfredGPT/issues/new?template=feature-request-zh.yml</value>
     </data>
     <data name="WelcomeView_DiscordHyperlinkButton_Content" xml:space="preserve">
         <value>Discord</value>
@@ -552,19 +552,19 @@
         <value>开机启动</value>
     </data>
     <data name="Settings_Common_IsStartupEnabled_Description" xml:space="preserve">
-        <value>Everywhere 会在开机后自动运行。如果开启了“以管理员方式启动”，则只有在管理员模式下才能关闭当前选项。</value>
+        <value>AlfredGPT 会在开机后自动运行。如果开启了“以管理员方式启动”，则只有在管理员模式下才能关闭当前选项。</value>
     </data>
     <data name="Settings_Common_IsAdministratorStartupEnabled_Header" xml:space="preserve">
         <value>以管理员方式启动</value>
     </data>
     <data name="Settings_Common_IsAdministratorStartupEnabled_Description" xml:space="preserve">
-        <value>Everywhere 会以管理员方式自启动。只有在管理员模式下才能开关当前选项。</value>
+        <value>AlfredGPT 会以管理员方式自启动。只有在管理员模式下才能开关当前选项。</value>
     </data>
     <data name="Settings_Common_RestartAsAdministrator_Header" xml:space="preserve">
         <value>以管理员身份重启</value>
     </data>
     <data name="Settings_Common_RestartAsAdministrator_Description" xml:space="preserve">
-        <value>由于操作系统限制，当以管理员身份运行任何应用程序（提升权限）时，如果提升权限的应用程序处于活动状态或试图与 Everywhere 的某个功能（如“选择元素”）交互，Everywhere 可能无法正常工作。可以通过以管理员身份运行 Everywhere 来解决此问题。</value>
+        <value>由于操作系统限制，当以管理员身份运行任何应用程序（提升权限）时，如果提升权限的应用程序处于活动状态或试图与 AlfredGPT 的某个功能（如“选择元素”）交互，AlfredGPT 可能无法正常工作。可以通过以管理员身份运行 AlfredGPT 来解决此问题。</value>
     </data>
     <data name="Settings_Common_RestartAsAdministrator_Button_Content" xml:space="preserve">
         <value>重启</value>
@@ -591,7 +591,7 @@
         <value>未知</value>
     </data>
     <data name="Settings_Common_SoftwareUpdate_Toast_AlreadyLatestVersion" xml:space="preserve">
-        <value>Everywhere 已是最新版本。</value>
+        <value>AlfredGPT 已是最新版本。</value>
     </data>
     <data name="Settings_Common_SoftwareUpdate_Toast_NewVersionFound" xml:space="preserve">
         <value>发现新版本: {0}</value>
@@ -600,13 +600,13 @@
         <value>软件更新</value>
     </data>
     <data name="Settings_Common_SoftwareUpdate_Description" xml:space="preserve">
-        <value>如果有更新，点击更新之后 Everywhere 会自动下载并安装最新版本。过程中可能需要你在弹出窗口中选择“是”。</value>
+        <value>如果有更新，点击更新之后 AlfredGPT 会自动下载并安装最新版本。过程中可能需要你在弹出窗口中选择“是”。</value>
     </data>
     <data name="Settings_Common_IsAutomaticUpdateCheckEnabled_Header" xml:space="preserve">
         <value>自动更新</value>
     </data>
     <data name="Settings_Common_IsAutomaticUpdateCheckEnabled_Description" xml:space="preserve">
-        <value>开启后，Everywhere 会定期检查更新 (仅在 Everywhere 运行时，不会给系统增加额外负担)。</value>
+        <value>开启后，AlfredGPT 会定期检查更新 (仅在 AlfredGPT 运行时，不会给系统增加额外负担)。</value>
     </data>
     <data name="Settings_Common_SoftwareUpdate_Toast_DownloadingUpdate" xml:space="preserve">
         <value>下载更新中...</value>
@@ -687,7 +687,7 @@
         <value>访问 GitHub</value>
     </data>
     <data name="ChangeLogView_Header" xml:space="preserve">
-        <value>Everywhere 已更新到最新版本 🎉</value>
+        <value>AlfredGPT 已更新到最新版本 🎉</value>
     </data>
     <data name="ChangeLogView_Content" xml:space="preserve">
         <value>目前我还刚诞生不久，如果遇到问题，欢迎点击下方链接反馈，我会不断进化的！
@@ -1148,10 +1148,10 @@
         <value>拒绝所有</value>
     </data>
     <data name="NativeChatPlugin_FileSystem_DeleteFiles_DeletionConsent_Header" xml:space="preserve">
-        <value>Everywhere wants to delete {0} files or directories</value>
+        <value>AlfredGPT wants to delete {0} files or directories</value>
     </data>
     <data name="NativeChatPlugin_FileSystem_DeleteFiles_SystemFile_DeletionConsent_Header" xml:space="preserve">
-        <value>Everywhere wants to delete system file or directory</value>
+        <value>AlfredGPT wants to delete system file or directory</value>
     </data>
     <data name="TextDifferenceEditor_DiscardButton_Content" xml:space="preserve">
         <value>拒绝</value>

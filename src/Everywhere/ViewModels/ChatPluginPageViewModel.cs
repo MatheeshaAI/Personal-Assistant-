@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Chat.Plugins;
+using AlfredGPT.Chat.Plugins;
 
-namespace Everywhere.ViewModels;
+namespace AlfredGPT.ViewModels;
 
 public partial class ChatPluginPageViewModel(IChatPluginManager manager) : ReactiveViewModelBase
 {

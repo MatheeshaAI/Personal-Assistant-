@@ -1,10 +1,10 @@
 ﻿using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.IO.Pipes;
-using Everywhere.Rpc;
+using AlfredGPT.Rpc;
 using MessagePack;
 
-namespace Everywhere.Watchdog;
+namespace AlfredGPT.Watchdog;
 
 public static class Program
 {

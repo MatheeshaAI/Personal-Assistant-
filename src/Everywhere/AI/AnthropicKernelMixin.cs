@@ -4,7 +4,7 @@ using Microsoft.Extensions.AI;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 /// <summary>
 /// An implementation of <see cref="IKernelMixin"/> for Anthropic models.

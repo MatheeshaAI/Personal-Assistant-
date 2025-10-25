@@ -1,4 +1,4 @@
-﻿namespace Everywhere.Utilities;
+﻿namespace AlfredGPT.Utilities;
 
 /// <summary>
 /// A CancellationTokenSource that can be reused after being cancelled.

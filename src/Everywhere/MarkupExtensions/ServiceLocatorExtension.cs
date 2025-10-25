@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using Avalonia.Markup.Xaml;
-using Everywhere.Common;
+using AlfredGPT.Common;
 
-namespace Everywhere.MarkupExtensions;
+namespace AlfredGPT.MarkupExtensions;
 
 public class ServiceLocatorExtension : MarkupExtension
 {

@@ -2,7 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using ObservableCollections;
 
-namespace Everywhere.Chat;
+namespace AlfredGPT.Chat;
 
 public interface IChatContextManager : INotifyPropertyChanged
 {

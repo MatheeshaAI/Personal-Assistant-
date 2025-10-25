@@ -1,9 +1,9 @@
 ﻿using Avalonia.Controls;
-using Everywhere.Common;
-using Everywhere.Interop;
+using AlfredGPT.Common;
+using AlfredGPT.Interop;
 using Serilog;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public class OverlayWindow : Window
 {

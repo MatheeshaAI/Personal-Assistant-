@@ -1,17 +1,17 @@
 <a id="readme-top"></a>
 
-<a href="https://github.com/DearVa/Everywhere">Go to English Version »</a>
+<a href="https://github.com/DearVa/AlfredGPT">Go to English Version »</a>
 
 [![.NET 9][.NET 9]][.NET-url][![Avalonia][Avalonia]][Avalonia-url]
 [![加入 Discord](https://dcbadge.limes.pink/api/server/5fyg6nE3yn)](https://discord.gg/5fyg6nE3yn)
 [![加入 QQ 群][QQ-Group]](https://qm.qq.com/cgi-bin/qm/qr?k=wp9aDBBnLc7pYATqT99tB-N2ZP2ETmJC&jump_from=webapi&authKey=97qUJfsQoI70dUNcgBZ0C3HCZeiEn8inLT7pzg8x+KinbQwfIrHFu3dB2+aHMbRD)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DearVa/Everywhere/refs/heads/main/img/banner.webp" alt="Banner"/>
+  <img src="https://raw.githubusercontent.com/DearVa/AlfredGPT/refs/heads/main/img/banner.webp" alt="Banner"/>
 
   <h1>
 
-  随时随地，智能相伴 - `Everywhere`
+  随时随地，智能相伴 - `AlfredGPT`
 
   </h1>
 
@@ -20,20 +20,20 @@
   <p align="center">
     <a href="https://everywhere.sylinko.com/zh-CN/"><strong>查看文档 »</strong></a>
     &nbsp;&middot;&nbsp;
-    <a href="【你的下一代 AI 助手｜Everywhere】 https://www.bilibili.com/video/BV1mcxvzfESz"><strong>观看宣传片 »</strong></a>
+    <a href="【你的下一代 AI 助手｜AlfredGPT】 https://www.bilibili.com/video/BV1mcxvzfESz"><strong>观看宣传片 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DearVa/Everywhere">查看演示</a>
+    <a href="https://github.com/DearVa/AlfredGPT">查看演示</a>
     &middot;
-    <a href="https://github.com/DearVa/Everywhere/issues/new?labels=bug&template=bug-report.md">报告错误</a>
+    <a href="https://github.com/DearVa/AlfredGPT/issues/new?labels=bug&template=bug-report.md">报告错误</a>
     &middot;
-    <a href="https://github.com/DearVa/Everywhere/issues/new?labels=enhancement&template=feature-request.md">功能请求</a>
+    <a href="https://github.com/DearVa/AlfredGPT/issues/new?labels=enhancement&template=feature-request.md">功能请求</a>
   </p>
 </div>
 
-## 关于 Everywhere
+## 关于 AlfredGPT
 
-**Everywhere** 是一款具备情境感知能力的交互式 AI 助手，拥有简洁现代的用户界面和强大的集成功能。与传统 AI 工具不同，Everywhere 能即时感知并理解您屏幕上的任何内容。无需截图、复制或切换应用——只需按下快捷键，即可在当前位置获得所需帮助，实现无缝的 AI 助手支持。
+**AlfredGPT** 是一款具备情境感知能力的交互式 AI 助手，拥有简洁现代的用户界面和强大的集成功能。与传统 AI 工具不同，AlfredGPT 能即时感知并理解您屏幕上的任何内容。无需截图、复制或切换应用——只需按下快捷键，即可在当前位置获得所需帮助，实现无缝的 AI 助手支持。
 
 ### 🌟 使用场景示例
 
@@ -42,11 +42,11 @@
 
 > 当您在使用电脑时，弹出了一个错误消息，但您不确定如何解决
 >
-> 📌 在错误消息旁**唤起 Everywhere**
+> 📌 在错误消息旁**唤起 AlfredGPT**
 >
 > 🗣️ **命令:** "这是什么错误？如何解决？"
 >
-> ✨ **结果:** Everywhere 捕获消息上下文并给出解决方案
+> ✨ **结果:** AlfredGPT 捕获消息上下文并给出解决方案
 
 </details>
 
@@ -55,7 +55,7 @@
 
 > 您正在浏览一篇冗长的技术文章，但只需要了解关键要点
 >
-> 📌 在网页上**唤起 Everywhere**
+> 📌 在网页上**唤起 AlfredGPT**
 >
 > 🗣️ **命令:** "给我一个简短的总结"
 >
@@ -68,7 +68,7 @@
 
 > 在研究过程中遇到外语文本
 >
-> 📌 在文本上**唤起 Everywhere**
+> 📌 在文本上**唤起 AlfredGPT**
 >
 > 🗣️ **命令:** "把这个翻译成中文"
 >
@@ -81,7 +81,7 @@
 
 > 您正在撰写一封重要的商务邮件，但不确定语气是否恰当
 >
-> 📌 在草稿上**唤起 Everywhere**
+> 📌 在草稿上**唤起 AlfredGPT**
 >
 > 🗣️ **命令:** "让这封邮件更专业一些"
 >
@@ -166,7 +166,7 @@
         • 中文 (繁體)<br>
         • 中文 (繁體 香港特別行政區)<br><br>
         <b>欢迎贡献</b><br>
-        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | Everywhere" /></a>
+        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | AlfredGPT" /></a>
       </td>
     </tr>
   </tbody>
@@ -186,9 +186,9 @@
 
 - Windows
   
-  在这里下载 [最新发布版本](https://github.com/DearVa/Everywhere/releases/latest)
+  在这里下载 [最新发布版本](https://github.com/DearVa/AlfredGPT/releases/latest)
 
-  其中 `Everywhere-Windows-x64-Setup-vx.x.x.exe` 是安装包，`Everywhere-Windows-x64-vx.x.x.zip` 是免安装版。它们的内容完全一样。
+  其中 `AlfredGPT-Windows-x64-Setup-vx.x.x.exe` 是安装包，`AlfredGPT-Windows-x64-vx.x.x.zip` 是免安装版。它们的内容完全一样。
 
 - macOS 和 Linux
   
@@ -211,8 +211,8 @@
 
 ### 主要贡献者：
 
-<a href="https://github.com/DearVa/Everywhere/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DearVa/Everywhere" alt="贡献者图示" />
+<a href="https://github.com/DearVa/AlfredGPT/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DearVa/AlfredGPT" alt="贡献者图示" />
 </a>
 
 ## 📄 许可证
@@ -229,11 +229,11 @@
 
 ## 📈 星标历史
 
-<a href="https://www.star-history.com/#DearVa/Everywhere&Date">
+<a href="https://www.star-history.com/#DearVa/AlfredGPT&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=DearVa/Everywhere&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=DearVa/Everywhere&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=DearVa/Everywhere&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=DearVa/AlfredGPT&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=DearVa/AlfredGPT&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=DearVa/AlfredGPT&type=Date" />
  </picture>
 </a>
 

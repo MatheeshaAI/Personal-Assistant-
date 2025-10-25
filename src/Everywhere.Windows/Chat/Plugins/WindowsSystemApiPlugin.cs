@@ -4,14 +4,14 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using Windows.Win32;
 using Windows.Win32.UI.Input.KeyboardAndMouse;
-using Everywhere.Chat.Plugins;
-using Everywhere.Common;
-using Everywhere.I18N;
+using AlfredGPT.Chat.Plugins;
+using AlfredGPT.Common;
+using AlfredGPT.I18N;
 using Lucide.Avalonia;
 using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel;
 
-namespace Everywhere.Windows.Chat.Plugins;
+namespace AlfredGPT.Windows.Chat.Plugins;
 
 /// <summary>
 /// Simplified Windows system helper plugin that exposes a compact tool surface area.
@@ -21,7 +21,7 @@ public class WindowsSystemApiPlugin : BuiltInChatPlugin
     public override DynamicResourceKeyBase HeaderKey { get; } = new DirectResourceKey(LocaleKey.NativeChatPlugin_WindowsSystemApi_Header);
     public override DynamicResourceKeyBase DescriptionKey { get; } = new DirectResourceKey(LocaleKey.NativeChatPlugin_WindowsSystemApi_Description);
     public override LucideIconKind? Icon => LucideIconKind.Monitor;
-    public override string BeautifulIcon => "avares://Everywhere.Windows/Assets/Icons/Windows11.svg";
+    public override string BeautifulIcon => "avares://AlfredGPT.Windows/Assets/Icons/Windows11.svg";
 
     private readonly ILogger<WindowsSystemApiPlugin> _logger;
 

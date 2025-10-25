@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
 using MessagePack;
 
-namespace Everywhere.Utilities;
+namespace AlfredGPT.Utilities;
 
 public delegate void TrackableObjectPropertyChangedEventHandler<in TScope>(TScope sender, PropertyChangedEventArgs e);
 

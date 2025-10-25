@@ -4,7 +4,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using LiveMarkdown.Avalonia;
 using MessagePack;
 
-namespace Everywhere.Chat.Plugins;
+namespace AlfredGPT.Chat.Plugins;
 
 /// <summary>
 /// Used to represent a block of content displayed by a chat plugin.

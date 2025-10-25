@@ -1,8 +1,8 @@
 ﻿<ResourceDictionary
   xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:ai="clr-namespace:Everywhere.AI" xmlns:be="clr-namespace:Everywhere.Behaviors"
-  xmlns:chat="clr-namespace:Everywhere.Chat" xmlns:shadui="clr-namespace:ShadUI;assembly=ShadUI"
-  xmlns:v="clr-namespace:Everywhere.Views" xmlns:vc="clr-namespace:Everywhere.ValueConverters">
+  xmlns:ai="clr-namespace:AlfredGPT.AI" xmlns:be="clr-namespace:AlfredGPT.Behaviors"
+  xmlns:chat="clr-namespace:AlfredGPT.Chat" xmlns:shadui="clr-namespace:ShadUI;assembly=ShadUI"
+  xmlns:v="clr-namespace:AlfredGPT.Views" xmlns:vc="clr-namespace:AlfredGPT.ValueConverters">
 
   <DataTemplate
     x:Key="{x:Type ai:CustomAssistant}"

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Everywhere.Common;
+namespace AlfredGPT.Common;
 
 public static class ServiceLocator
 {

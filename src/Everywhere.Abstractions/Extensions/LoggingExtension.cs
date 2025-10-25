@@ -1,7 +1,7 @@
-﻿using Everywhere.Common;
+﻿using AlfredGPT.Common;
 using Microsoft.Extensions.Logging;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class LoggingExtension
 {

@@ -2,7 +2,7 @@
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 
-namespace Everywhere.AI;
+namespace AlfredGPT.AI;
 
 public abstract class KernelMixinBase(CustomAssistant customAssistant) : IKernelMixin
 {

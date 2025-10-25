@@ -7,7 +7,7 @@ using Avalonia.Markup.Xaml;
 using Avalonia.Metadata;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Everywhere.MarkupExtensions;
+namespace AlfredGPT.MarkupExtensions;
 
 public class I18NExtension : MarkupExtension
 {

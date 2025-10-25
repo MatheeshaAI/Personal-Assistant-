@@ -2,7 +2,7 @@
 using System.Reflection;
 using Avalonia.Data.Converters;
 
-namespace Everywhere.ValueConverters;
+namespace AlfredGPT.ValueConverters;
 
 /// <summary>
 /// Resolves a <see cref="DynamicResourceKeyAttribute"/> to the actual resource.

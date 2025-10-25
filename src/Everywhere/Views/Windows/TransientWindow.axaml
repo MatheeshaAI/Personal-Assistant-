@@ -1,8 +1,8 @@
 ﻿<shadui:Window
-  x:Class="Everywhere.Views.TransientWindow" xmlns="https://github.com/avaloniaui"
+  x:Class="AlfredGPT.Views.TransientWindow" xmlns="https://github.com/avaloniaui"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI"
-  Title="Everywhere" MinWidth="640"
-  Focusable="True" Icon="avares://Everywhere/Assets/Everywhere.png"
+  Title="AlfredGPT" MinWidth="640"
+  Focusable="True" Icon="avares://AlfredGPT/Assets/AlfredGPT.png"
   TitleFontWeight="SemiBold" TransparencyLevelHint="Mica,Blur,None">
 
   <shadui:Window.Hosts>

@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary
   xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:at="clr-namespace:Everywhere.AttachedProperties" xmlns:c="clr-namespace:Everywhere.Configuration"
-  xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI" xmlns:v="using:Everywhere.Views">
+  xmlns:at="clr-namespace:AlfredGPT.AttachedProperties" xmlns:c="clr-namespace:AlfredGPT.Configuration"
+  xmlns:shadui="clr-namespace:ShadUI.Controls;assembly=ShadUI" xmlns:v="using:AlfredGPT.Views">
   <Design.PreviewWith>
     <v:SettingsItemsControl/>
   </Design.PreviewWith>

@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Everywhere.Interop;
-using Everywhere.Utilities;
+using AlfredGPT.Interop;
+using AlfredGPT.Utilities;
 using MessagePack;
 using ObservableCollections;
 
-namespace Everywhere.Chat;
+namespace AlfredGPT.Chat;
 
 public delegate void ChatContextChangedEventHandler(ChatContext context);
 

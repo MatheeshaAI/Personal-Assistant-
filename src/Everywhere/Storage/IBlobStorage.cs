@@ -1,6 +1,6 @@
-﻿using Everywhere.Database;
+﻿using AlfredGPT.Database;
 
-namespace Everywhere.Storage;
+namespace AlfredGPT.Storage;
 
 /// <summary>
 /// Manages the storage and retrieval of content-addressed blobs (files, images, etc.).

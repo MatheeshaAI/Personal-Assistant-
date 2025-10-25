@@ -1,4 +1,4 @@
-﻿namespace Everywhere.AI;
+﻿namespace AlfredGPT.AI;
 
 /// <summary>
 /// Provides schema definitions and constants for model providers.

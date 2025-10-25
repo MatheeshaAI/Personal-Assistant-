@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Everywhere.Utilities;
+namespace AlfredGPT.Utilities;
 
 /// <summary>
 /// A lightweight alternative to <see cref="Lazy{T}"/> that is not thread-safe.

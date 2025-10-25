@@ -1,6 +1,6 @@
 ﻿using MessagePack;
 
-namespace Everywhere.Rpc;
+namespace AlfredGPT.Rpc;
 
 [MessagePackObject]
 [Union(0, typeof(RegisterSubprocessCommand))]

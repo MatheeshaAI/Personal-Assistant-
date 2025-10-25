@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
 using Lucide.Avalonia;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public class ChatActionBubble : ContentControl
 {

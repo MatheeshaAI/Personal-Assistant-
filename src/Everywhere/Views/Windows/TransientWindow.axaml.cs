@@ -2,7 +2,7 @@
 using ShadUI;
 using Window = ShadUI.Window;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public partial class TransientWindow : Window, IReactiveHost
 {

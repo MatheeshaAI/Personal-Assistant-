@@ -1,15 +1,15 @@
 ﻿using Avalonia.Input.Platform;
 using Avalonia.Platform.Storage;
-using Everywhere.Common;
-using Everywhere.Configuration;
-using Everywhere.Database;
-using Everywhere.Storage;
-using Everywhere.Views;
-using Everywhere.Views.Pages;
+using AlfredGPT.Common;
+using AlfredGPT.Configuration;
+using AlfredGPT.Database;
+using AlfredGPT.Storage;
+using AlfredGPT.Views;
+using AlfredGPT.Views.Pages;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class ServiceExtension
 {

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <PublishAot>true</PublishAot>
+    <SelfContained>true</SelfContained>
+    <OptimizationPreference>Size</OptimizationPreference>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Everywhere.Abstractions\Everywhere.Abstractions.csproj"/>
+  </ItemGroup>
+
+</Project>

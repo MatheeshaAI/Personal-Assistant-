@@ -3,9 +3,9 @@ using Windows.Win32.Foundation;
 using Windows.Win32.Graphics.Dwm;
 using Windows.Win32.UI.WindowsAndMessaging;
 using Avalonia.Controls;
-using Everywhere.Interop;
+using AlfredGPT.Interop;
 
-namespace Everywhere.Windows.Interop;
+namespace AlfredGPT.Windows.Interop;
 
 /// <summary>
 /// Reference: Powertoys

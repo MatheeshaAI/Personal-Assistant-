@@ -3,7 +3,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Everywhere.Database;
+namespace AlfredGPT.Database;
 
 public class ChatDbContextFactory : IDesignTimeDbContextFactory<ChatDbContext>
 {
@@ -11,7 +11,7 @@ public class ChatDbContextFactory : IDesignTimeDbContextFactory<ChatDbContext>
     {
         var dbPath = Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
-            "Everywhere",
+            "AlfredGPT",
             "db");
         Directory.CreateDirectory(dbPath);
 

@@ -2,11 +2,11 @@
 using Avalonia.Controls.Metadata;
 using Avalonia.Controls.Primitives;
 using Avalonia.Interactivity;
-using Everywhere.Common;
+using AlfredGPT.Common;
 using Lucide.Avalonia;
 using ZLinq;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 [TemplatePart(Name = "PART_IconTypeTabControl", Type = typeof(TabControl))]
 public class IconEditor : TemplatedControl

@@ -1,9 +1,9 @@
 ﻿using System.Security.Cryptography;
-using Everywhere.Configuration;
-using Everywhere.Database;
+using AlfredGPT.Configuration;
+using AlfredGPT.Database;
 using Microsoft.EntityFrameworkCore;
 
-namespace Everywhere.Storage;
+namespace AlfredGPT.Storage;
 
 public class BlobStorage(IDbContextFactory<ChatDbContext> dbFactory, IRuntimeConstantProvider runtimeConstantProvider) : IBlobStorage
 {

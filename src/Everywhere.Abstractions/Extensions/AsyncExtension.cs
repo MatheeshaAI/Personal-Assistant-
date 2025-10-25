@@ -2,7 +2,7 @@
 using TaskCompletionSource = System.Threading.Tasks.TaskCompletionSource<object?>;
 #endif
 
-namespace Everywhere.Extensions;
+namespace AlfredGPT.Extensions;
 
 public static class AsyncExtension
 {

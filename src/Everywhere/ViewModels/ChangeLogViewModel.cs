@@ -1,3 +1,3 @@
-namespace Everywhere.ViewModels;
+namespace AlfredGPT.ViewModels;
 
 public class ChangeLogViewModel : ReactiveViewModelBase;

@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls.Primitives;
-using Everywhere.Common;
+using AlfredGPT.Common;
 
-namespace Everywhere.Views;
+namespace AlfredGPT.Views;
 
 public class IconPresenter : TemplatedControl
 {
