@@ -32,7 +32,7 @@ public sealed partial class SoftwareUpdater(
     {
         DefaultRequestHeaders =
         {
-            { "User-Agent", "libcurl/7.64.1 r-curl/4.3.2 httr/1.4.2 EverywhereUpdater" }
+            { "User-Agent", "libcurl/7.64.1 r-curl/4.3.2 httr/1.4.2 AlfredGPTUpdater" }
         }
     };
     private readonly ActivitySource _activitySource = new(typeof(SoftwareUpdater).FullName.NotNull());
