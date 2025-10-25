@@ -54,7 +54,7 @@ public static class Entrance
         // axaml designer may launch this code, so we need to set it to null.
         _ = args;
 #else
-        _appMutex = new Mutex(true, "EverywhereAppMutex", out var createdNew);
+    _appMutex = new Mutex(true, "AlfredGPTAppMutex", out var createdNew);
         if (!createdNew)
         {
             if (!args.Contains("--autorun"))
